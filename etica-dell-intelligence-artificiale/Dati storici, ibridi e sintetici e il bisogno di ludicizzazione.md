@@ -6,7 +6,7 @@ Naturalmente, l’ può essere estremamente essibile: sono i dati che determinan
 
 Tuttavia, recentemente l’AI è talmente migliorata che, in taluni casi, si sta passando da un’enfasi sulla **quantità** di grandi masse di dati, a volte impropriamente chiamati Big Data, a un’enfasi sulla **qualità** di insiemi di dati ben curati.
 
-**I “piccoli dati” di alta qualità costituiscono uno degli scenari futuri dell’ AI**
+**I “piccoli dati” di alta qualità costituiscono uno degli scenari futuri dell’ AI** ^4ef1c7
 
 Ma sappiamo anche che l’AI può generare i propri dati. Chiamerò **sintetici** i dati interamente *generati* dall’AI.
 
@@ -37,3 +37,8 @@ Tra dati storici più o meno mascherati (impoveriti attraverso una risoluzione i
 
 Un buon esempio, introdotto da Goodfellow e coautori, è fornito dalle reti generative avverse (**[[GANs]]**).
 
+Il futuro dell’ non risiede soltanto nei “[[Dati storici, ibridi e sintetici e il bisogno di ludicizzazione#^4ef1c7|piccoli dati]]” ma anche, o forse principalmente, nella sua crescente capacità di generare i propri dati.
+
+La differenza è costituita dal processo genetico, cioè dalle regole usate per creare i dati. 
+I dati storici sono ottenuti tramite *regole di registrazione*, in quanto sono il risultato di osservazioni del comportamento di un sistema. 
+I dati sintetizzati sono ottenuti tramite *regole di astrazione*, che eliminano, mascherano o ouscano alcuni gradi di risoluzione a partire dai dati storici, per esempio mediante l’anonimizzazione. Dati ibridi e realmente sintetici possono essere generati tramite regole vincolanti o costitutive.
