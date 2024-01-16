@@ -27,8 +27,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -155,10 +150,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e689f8171f7dcbfa",
+  "active": "90e42ffce23c3142",
   "lastOpenFiles": [
-    "Pasted image 20240116132856.png",
     "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
+    "Pasted image 20240116132856.png",
     "Etica, governance e design.md",
     "1. Passato - l'origine dell'intelligenza artificiale.md",
     "Nuove forme dell'agire.md",
