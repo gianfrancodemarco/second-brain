@@ -16,6 +16,16 @@
             }
           },
           {
+            "id": "7b96c8d67b2b74c9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
+          },
+          {
             "id": "e689f8171f7dcbfa",
             "type": "leaf",
             "state": {
@@ -27,7 +37,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,7 +161,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90e42ffce23c3142",
+  "active": "7b96c8d67b2b74c9",
   "lastOpenFiles": [
     "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
     "Pasted image 20240116132856.png",
