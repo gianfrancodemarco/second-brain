@@ -4,41 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "58a552fd49a8dbcb",
+        "id": "5ef09d5821c37c85",
         "type": "tabs",
         "children": [
           {
-            "id": "90e42ffce23c3142",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "7b96c8d67b2b74c9",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
-            }
-          },
-          {
-            "id": "e689f8171f7dcbfa",
+            "id": "e074da6ee4985dab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
+                "file": "L'uso degli esseri umani e delle interfacce.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5314f6835e83ba3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chi si adatterà a chi?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f585561d0055fb61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Futuro - lo sviluppo prevedibile dell'AI.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Futuro - lo sviluppo prevedibile dell'AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Futuro - lo sviluppo prevedibile dell'AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,14 +149,25 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "Futuro - lo sviluppo prevedibile dell'AI.md"
+              }
+            }
+          },
+          {
+            "id": "bf5dfd57a03e8028",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -161,21 +180,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b96c8d67b2b74c9",
+  "active": "f585561d0055fb61",
   "lastOpenFiles": [
+    "Chi si adatterà a chi?.md",
+    "Futuro - lo sviluppo prevedibile dell'AI.md",
+    "L'uso degli esseri umani e delle interfacce.md",
+    "Aavvolgimento.md",
+    "Untitled",
+    "Untitled.canvas",
+    "Tecnologia.md",
     "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
-    "Pasted image 20240116132856.png",
+    "images",
+    "2024-01-16.md",
+    "images/Pasted image 20240116132856.png",
+    "Il potere di scissione del digitale - tagliare e incollare la modernità.md",
+    "AI Simbolica.md",
     "Etica, governance e design.md",
     "1. Passato - l'origine dell'intelligenza artificiale.md",
     "Nuove forme dell'agire.md",
     "Nuove forme dell'agire^.md",
-    "Il potere di scissione del digitale - tagliare e incollare la modernità.md",
-    "AI Simbolica.md",
     "epistemologicamente.md",
-    "Tecnologia.md",
     "ontologicamente.md",
     "Infosfera.md",
-    "AI simbolica.md",
-    "Untitled.canvas"
+    "AI simbolica.md"
   ]
 }
