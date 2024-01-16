@@ -1,0 +1,1 @@
+Con il termine infosfera nella filosofia dell'informazione si intende la globalità dello spazio delle informazioni. Pertanto l'infosfera include sia il ciberspazio (Internet, telecomunicazioni digitali) sia i mass media classici.

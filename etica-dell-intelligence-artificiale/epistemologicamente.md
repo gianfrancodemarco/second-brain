@@ -1,0 +1,1 @@
+Che concerne l’epistemologia, cioè la filosofia della scienza, e in senso più ampio la conoscenza dei metodi delle scienze e dei principî secondo i quali la scienza costruisce sé stessa: _dottrina_, teoria 

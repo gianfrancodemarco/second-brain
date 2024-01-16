@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "af9f63030723c279",
+        "id": "58a552fd49a8dbcb",
         "type": "tabs",
         "children": [
           {
-            "id": "f9dc87156d0e1258",
+            "id": "90e42ffce23c3142",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,12 +16,12 @@
             }
           },
           {
-            "id": "cdc7eceebea33d9c",
+            "id": "e689f8171f7dcbfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md"
               }
             }
           }
@@ -155,9 +155,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56d54e999e3e5d19",
+  "active": "e689f8171f7dcbfa",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Pasted image 20240116132856.png",
+    "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
+    "Etica, governance e design.md",
+    "1. Passato - l'origine dell'intelligenza artificiale.md",
+    "Nuove forme dell'agire.md",
+    "Nuove forme dell'agire^.md",
+    "Il potere di scissione del digitale - tagliare e incollare la modernità.md",
+    "AI Simbolica.md",
+    "epistemologicamente.md",
+    "Tecnologia.md",
+    "ontologicamente.md",
+    "Infosfera.md",
+    "AI simbolica.md",
     "Untitled.canvas"
   ]
 }
