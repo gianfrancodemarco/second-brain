@@ -42,3 +42,9 @@ Il futuro dell’ non risiede soltanto nei “[[Dati storici, ibridi e sintetici
 La differenza è costituita dal processo genetico, cioè dalle regole usate per creare i dati. 
 I dati storici sono ottenuti tramite *regole di registrazione*, in quanto sono il risultato di osservazioni del comportamento di un sistema. 
 I dati sintetizzati sono ottenuti tramite *regole di astrazione*, che eliminano, mascherano o ouscano alcuni gradi di risoluzione a partire dai dati storici, per esempio mediante l’anonimizzazione. Dati ibridi e realmente sintetici possono essere generati tramite regole vincolanti o costitutive.
+
+> Quando 
+>	1. un processo o un’interazione può essere trasformata in un gioco e 
+>	2. il gioco può essere trasformato in un gioco formato da regole costitutive, allora 
+>	3. l’AI sarà in grado di generare i propri dati, completamente sintetici, ed essere il miglior “giocatore” su questo pianeta
+

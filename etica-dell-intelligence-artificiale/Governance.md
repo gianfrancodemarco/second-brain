@@ -1,0 +1,1 @@
+L'insieme dei principi, delle regole e delle procedure che riguardano la gestione e il governo di una società, di un'istituzione, di un fenomeno collettivo.
