@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "15250715b9b55396",
+        "id": "b8bad8a9bba28079",
         "type": "tabs",
         "children": [
           {
-            "id": "3a17e3ace86e3f16",
+            "id": "0ada88d8dc058439",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "semi del tempo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -151,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5
+    "width": 241.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,18 +162,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7db3f550b15eee4d",
+  "active": "0ada88d8dc058439",
   "lastOpenFiles": [
-    "images/governance.png",
+    "Pasted image 20240118005437.png",
+    "Pasted image 20240118005138.png",
+    "Pasted image 20240118005120.png",
+    "images/Pasted image 20240118005021.png",
     "6. Etica soft e governance dell'AI.md",
+    "images/Pasted image 20240118003701.png",
+    "3. Futuro - lo sviluppo prevedibile dell'AI.md",
+    "Semi“scrutare nei semi digitali del tempo / e dire quali chicchi germoglieranno, e quali no”.md",
+    "Semi“scrutare nei semi digitali del tempo ",
+    "images/etica.png",
+    "Untitled.canvas",
+    "Il potere di scissione del digitale - tagliare e incollare la modernità.md",
+    "Tecnologia.md",
+    "Infosfera.md",
+    "images/governance.png",
     "5. Dai principi alle pratiche - i rischi di comportamenti contrari all'etica.md",
     "4. Un quadro unificato di principi etici per l'IA.md",
     "Governance.md",
     "images/principi etici.png",
-    "3. Futuro - lo sviluppo prevedibile dell'AI.md",
     "Etica, governance e design.md",
-    "Il potere di scissione del digitale - tagliare e incollare la modernità.md",
-    "Tecnologia.md",
     "Dati storici, ibridi e sintetici e il bisogno di ludicizzazione.md",
     "GANs.md",
     "1. Passato - l'origine dell'intelligenza artificiale.md",
@@ -189,14 +198,11 @@
     "[[GANs.md",
     "L'uso degli esseri umani e delle interfacce.md",
     "Aavvolgimento.md",
-    "Untitled.canvas",
     "images",
     "2024-01-16.md",
     "images/Pasted image 20240116132856.png",
     "Nuove forme dell'agire.md",
     "Nuove forme dell'agire^.md",
-    "epistemologicamente.md",
-    "ontologicamente.md",
-    "Infosfera.md"
+    "epistemologicamente.md"
   ]
 }
