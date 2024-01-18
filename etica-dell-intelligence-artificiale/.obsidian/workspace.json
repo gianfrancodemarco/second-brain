@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1f8c1590caed991f",
+        "id": "f0e7531e758f3e89",
         "type": "tabs",
         "children": [
           {
-            "id": "7e96b162ad8b9d5a",
+            "id": "964a12c5199ab907",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -52,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"elusione dell'etica\"",
+                "query": "\"capacità di agire\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md"
+              }
             }
           },
           {
@@ -155,8 +163,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e96b162ad8b9d5a",
+  "active": "964a12c5199ab907",
   "lastOpenFiles": [
+    "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md",
+    "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale",
+    "Etica, governance e design.md",
     "7. La mappatura dell'etica degli algoritmi.md",
     "Privacy Differenziale.md",
     "6. Etica soft e governance dell'AI.md",
@@ -184,19 +195,16 @@
     "4. Un quadro unificato di principi etici per l'IA.md",
     "Governance.md",
     "images/principi etici.png",
-    "Etica, governance e design.md",
     "Dati storici, ibridi e sintetici e il bisogno di ludicizzazione.md",
     "Chi si adatterà a chi?.md",
     "Problemi difficili, problemi complessi e bisogno di avvolgimento.md",
     "AI Simbolica.md",
-    "Untitled",
     "4. Un quadro unificato di principi etici per l'IA",
     "images/attività complesse e difficili.png",
     "2024-01-17.md",
     "[[GANs.md",
     "L'uso degli esseri umani e delle interfacce.md",
     "Aavvolgimento.md",
-    "images",
-    "2024-01-16.md"
+    "images"
   ]
 }
