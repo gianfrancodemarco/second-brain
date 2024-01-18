@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"prove inconcludenti\"",
+                "query": "\"elusione dell'etica\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,7 +163,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e96b162ad8b9d5a",
+  "active": "211428514c543a89",
   "lastOpenFiles": [
     "Privacy Differenziale.md",
     "7. La mappatura dell'etica degli algoritmi.md",
