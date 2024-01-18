@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
+                "file": "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
+                "file": "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
+                "file": "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md"
+                "file": "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md"
               }
             }
           },
@@ -155,16 +154,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "964a12c5199ab907",
+  "active": "56d54e999e3e5d19",
   "lastOpenFiles": [
+    "images/Pasted image 20240118224036.png",
+    "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
     "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md",
     "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale",
     "Etica, governance e design.md",
@@ -174,7 +175,6 @@
     "GANs.md",
     "5. Dai principi alle pratiche - i rischi di comportamenti contrari all'etica.md",
     "images/Pasted image 20240118133155.png",
-    "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
     "algoritmi di apprendimento automatico (ML).md",
     "1. Passato - l'origine dell'intelligenza artificiale.md",
     "images/Pasted image 20240118005120.png",
@@ -204,7 +204,6 @@
     "2024-01-17.md",
     "[[GANs.md",
     "L'uso degli esseri umani e delle interfacce.md",
-    "Aavvolgimento.md",
     "images"
   ]
 }
