@@ -16,7 +16,7 @@ Ma sappiamo anche che l’AI può generare i propri dati. Chiamerò **sintetici*
 	
 AlphaZero ha generato i propri dati sintetici, e questo è stato suffciente per il suo addestramento. Questo è ciò che si intende per dati sintetici.
 
-I dati realmente sintetici hanno alcune straordinarie proprietà, sono:
+I dati realmente sintetici hanno alcune straordinarie proprietà, sono: ^a72deb
 - durevoli
 - riutilizzabili
 - rapidamente trasportabili
