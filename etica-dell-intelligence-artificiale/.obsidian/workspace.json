@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0090881972798731",
+        "id": "1f8c1590caed991f",
         "type": "tabs",
         "children": [
           {
-            "id": "1297a93214c7fb9e",
+            "id": "7e96b162ad8b9d5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -163,10 +163,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "211428514c543a89",
+  "active": "7e96b162ad8b9d5a",
   "lastOpenFiles": [
-    "6. Etica soft e governance dell'AI.md",
+    "Privacy Differenziale.md",
     "7. La mappatura dell'etica degli algoritmi.md",
+    "6. Etica soft e governance dell'AI.md",
     "GANs.md",
     "5. Dai principi alle pratiche - i rischi di comportamenti contrari all'etica.md",
     "images/Pasted image 20240118133155.png",
