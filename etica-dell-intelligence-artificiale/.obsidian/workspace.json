@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b8e2b8b5de3c6813",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6. Etica soft e governance dell'AI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1297a93214c7fb9e",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,8 +164,11 @@
   },
   "active": "1297a93214c7fb9e",
   "lastOpenFiles": [
-    "6. Etica soft e governance dell'AI.md",
+    "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
+    "algoritmi di apprendimento automatico (ML).md",
     "7. La mappatura dell'etica degli algoritmi.md",
+    "6. Etica soft e governance dell'AI.md",
+    "1. Passato - l'origine dell'intelligenza artificiale.md",
     "5. Dai principi alle pratiche - i rischi di comportamenti contrari all'etica.md",
     "images/Pasted image 20240118005120.png",
     "images/Pasted image 20240118005437.png",
@@ -201,8 +191,6 @@
     "Etica, governance e design.md",
     "Dati storici, ibridi e sintetici e il bisogno di ludicizzazione.md",
     "GANs.md",
-    "1. Passato - l'origine dell'intelligenza artificiale.md",
-    "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
     "Chi si adatterà a chi?.md",
     "Problemi difficili, problemi complessi e bisogno di avvolgimento.md",
     "AI Simbolica.md",
@@ -216,7 +204,6 @@
     "images",
     "2024-01-16.md",
     "images/Pasted image 20240116132856.png",
-    "Nuove forme dell'agire.md",
-    "Nuove forme dell'agire^.md"
+    "Nuove forme dell'agire.md"
   ]
 }
