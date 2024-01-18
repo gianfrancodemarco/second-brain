@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e987c230579b959b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9. Uso dell'IA per il bene sociale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md",
+                "file": "9. Uso dell'IA per il bene sociale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md",
+                "file": "9. Uso dell'IA per il bene sociale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md"
+                "file": "9. Uso dell'IA per il bene sociale.md"
               }
             }
           },
@@ -162,9 +175,10 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "fadf4ad43a99510b",
+  "active": "e987c230579b959b",
   "lastOpenFiles": [
     "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md",
+    "9. Uso dell'IA per il bene sociale.md",
     "responsabilità.md",
     "images/Pasted image 20240118224036.png",
     "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
@@ -203,7 +217,6 @@
     "4. Un quadro unificato di principi etici per l'IA",
     "2024-01-17.md",
     "[[GANs.md",
-    "L'uso degli esseri umani e delle interfacce.md",
     "images"
   ]
 }
