@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ibidem",
+                "query": "\"prove inconcludenti\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,7 +163,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1297a93214c7fb9e",
+  "active": "211428514c543a89",
   "lastOpenFiles": [
     "6. Etica soft e governance dell'AI.md",
     "7. La mappatura dell'etica degli algoritmi.md",
