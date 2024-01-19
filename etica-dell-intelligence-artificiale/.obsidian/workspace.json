@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"capacità di agire\"",
+                "query": "autonomia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -162,7 +163,7 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "7320cf90a6f5e2b0",
+  "active": "211428514c543a89",
   "lastOpenFiles": [
     "0. Etica dell'intelligenza artificiale.md",
     "1. Passato - l'origine dell'intelligenza artificiale.md",
