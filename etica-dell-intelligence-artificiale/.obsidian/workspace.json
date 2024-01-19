@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Etica, governance e design.md",
+                "file": "1.1 Tecnologia.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bd2a7f1d24d5e2bb",
+            "id": "1e352165db9a5712",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Il potere di scissione del digitale - tagliare e incollare la modernità.md",
+                "file": "7.1 Privacy Differenziale.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Il potere di scissione del digitale - tagliare e incollare la modernità.md",
+                "file": "7.1 Privacy Differenziale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Il potere di scissione del digitale - tagliare e incollare la modernità.md",
+                "file": "7.1 Privacy Differenziale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Il potere di scissione del digitale - tagliare e incollare la modernità.md"
+                "file": "7.1 Privacy Differenziale.md"
               }
             }
           },
@@ -174,54 +174,54 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "bd2a7f1d24d5e2bb",
+  "active": "1e352165db9a5712",
   "lastOpenFiles": [
-    "Etica, governance e design.md",
-    "1. Passato - l'origine dell'intelligenza artificiale.md",
+    "pdfs/7.1 Privacy Differenziale.pdf",
+    "100. Glossario.md",
+    "pdfs/100. Glossario.pdf",
+    "pdfs/9. Uso dell'IA per il bene sociale.pdf",
+    "pdfs/8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.pdf",
+    "pdfs/7. La mappatura dell'etica degli algoritmi.pdf",
+    "pdfs/6. Etica soft e governance dell'AI.pdf",
+    "pdfs/5.pdf",
+    "pdfs/4. Un quadro unificato di principi etici per l'IA.pdf",
+    "pdfs/3. Futuro - lo sviluppo prevedibile dell'AI.pdf",
+    "pdfs/3.3 GANs.pdf",
+    "pdfs/3.2.pdf",
+    "1.1 Tecnologia.md",
+    "ontologicamente.md",
+    "7.1 Privacy Differenziale.md",
+    "1.4 Nuove forme dell'agire.md",
+    "Infosfera.md",
+    "Governance.md",
     "epistemologicamente.md",
-    "Dati storici, ibridi e sintetici e il bisogno di ludicizzazione.md",
+    "2.1 L'uso degli esseri umani e delle interfacce.md",
+    "9. Uso dell'IA per il bene sociale.md",
+    "3.3 GANs.md",
+    "3.1 Dati storici, ibridi e sintetici e il bisogno di ludicizzazione.md",
+    "1.3 Etica, governance e design.md",
+    "1.2 Il potere di scissione del digitale - tagliare e incollare la modernità.md",
+    "1. Passato - l'origine dell'intelligenza artificiale.md",
     "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
     "Chi si adatterà a chi?.md",
-    "9. Uso dell'IA per il bene sociale.md",
     "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md",
     "7. La mappatura dell'etica degli algoritmi.md",
     "6. Etica soft e governance dell'AI.md",
     "5. Dai principi alle pratiche - i rischi di comportamenti contrari all'etica.md",
     "4. Un quadro unificato di principi etici per l'IA.md",
     "3. Futuro - lo sviluppo prevedibile dell'AI.md",
-    "Problemi difficili, problemi complessi e bisogno di avvolgimento.md",
-    "pdfs/2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.pdf",
-    "Governance.md",
-    "Infosfera.md",
+    "3.2 Problemi difficili, problemi complessi e bisogno di avvolgimento.md",
     "AI Simbolica.md",
-    "pdfs/1. Passato - l'origine dell'intelligenza artificiale.pdf",
-    "pdfs",
-    "images/1. Passato - l'origine dell'intelligenza artificiale.pdf",
-    "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.pdf",
-    "Etica, governance e design.pdf",
-    "3. Futuro - lo sviluppo prevedibile dell'AI.pdf",
-    "7. La mappatura dell'etica degli algoritmi.pdf",
-    "Chi si adatterà a chi?.pdf",
-    "Dati storici, ibridi e sintetici e il bisogno di ludicizzazione.pdf",
     "images/Pasted image 20240119191541.png",
-    "0. Etica dell'intelligenza artificiale.md",
-    "responsabilità.md",
     "images/Pasted image 20240118224036.png",
-    "Privacy Differenziale.md",
-    "GANs.md",
     "images/Pasted image 20240118133155.png",
-    "algoritmi di apprendimento automatico (ML).md",
     "images/Pasted image 20240118005120.png",
     "images/Pasted image 20240118005437.png",
     "images/Pasted image 20240118005138.png",
-    "ontologicamente.md",
     "images/Pasted image 20240118005021.png",
     "images/Pasted image 20240118003701.png",
-    "Semi“scrutare nei semi digitali del tempo / e dire quali chicchi germoglieranno, e quali no”.md",
     "images/etica.png",
     "Untitled.canvas",
-    "Il potere di scissione del digitale - tagliare e incollare la modernità.md",
-    "Tecnologia.md",
     "images/governance.png"
   ]
 }
