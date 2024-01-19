@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "autonomia",
+                "query": "bias",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,8 +163,9 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "211428514c543a89",
+  "active": "7320cf90a6f5e2b0",
   "lastOpenFiles": [
+    "Pasted image 20240119191541.png",
     "0. Etica dell'intelligenza artificiale.md",
     "1. Passato - l'origine dell'intelligenza artificiale.md",
     "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md",
@@ -204,7 +205,6 @@
     "Problemi difficili, problemi complessi e bisogno di avvolgimento.md",
     "AI Simbolica.md",
     "4. Un quadro unificato di principi etici per l'IA",
-    "2024-01-17.md",
     "images"
   ]
 }
