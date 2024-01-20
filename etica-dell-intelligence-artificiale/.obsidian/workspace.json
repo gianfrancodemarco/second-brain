@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.4 Nuove forme dell'agire.md",
+                "file": "100. Glossario.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.1 Tecnologia.md",
+                "file": "100. Glossario.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.1 Tecnologia.md",
+                "file": "100. Glossario.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.1 Tecnologia.md"
+                "file": "100. Glossario.md"
               }
             }
           },
@@ -174,8 +174,10 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "56d54e999e3e5d19",
+  "active": "1e352165db9a5712",
   "lastOpenFiles": [
+    "1. Passato - l'origine dell'intelligenza artificiale.md",
+    "1.1 Tecnologia.md",
     "pdfs/0. Etica dell'intelligenza artificiale.pdf",
     "pdfs/1. Passato - l'origine dell'intelligenza artificiale-unito.pdf",
     "pdfs/1.4 Nuove forme dell'agire.pdf",
@@ -189,8 +191,6 @@
     "pdfs/8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.pdf",
     "pdfs/7. La mappatura dell'etica degli algoritmi.pdf",
     "pdfs/6. Etica soft e governance dell'AI.pdf",
-    "pdfs/5.pdf",
-    "1.1 Tecnologia.md",
     "ontologicamente.md",
     "1.4 Nuove forme dell'agire.md",
     "Infosfera.md",
@@ -201,7 +201,6 @@
     "3.3 GANs.md",
     "3.1 Dati storici, ibridi e sintetici e il bisogno di ludicizzazione.md",
     "1.2 Il potere di scissione del digitale - tagliare e incollare la modernità.md",
-    "1. Passato - l'origine dell'intelligenza artificiale.md",
     "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
     "Chi si adatterà a chi?.md",
     "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md",
