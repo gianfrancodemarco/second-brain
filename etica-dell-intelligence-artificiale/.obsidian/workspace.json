@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100. Glossario.md",
+                "file": "1. Passato - l'origine dell'intelligenza artificiale.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bias",
+                "query": "identit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100. Glossario.md",
+                "file": "1. Passato - l'origine dell'intelligenza artificiale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100. Glossario.md",
+                "file": "1. Passato - l'origine dell'intelligenza artificiale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100. Glossario.md"
+                "file": "1. Passato - l'origine dell'intelligenza artificiale.md"
               }
             }
           },
@@ -174,8 +175,9 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "1e352165db9a5712",
+  "active": "211428514c543a89",
   "lastOpenFiles": [
+    "100. Glossario.md",
     "1. Passato - l'origine dell'intelligenza artificiale.md",
     "1.1 Tecnologia.md",
     "pdfs/0. Etica dell'intelligenza artificiale.pdf",
@@ -185,7 +187,6 @@
     "1.3 Etica, governance e design.md",
     "7.1 Privacy Differenziale.md",
     "pdfs/7.1 Privacy Differenziale.pdf",
-    "100. Glossario.md",
     "pdfs/100. Glossario.pdf",
     "pdfs/9. Uso dell'IA per il bene sociale.pdf",
     "pdfs/8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.pdf",
