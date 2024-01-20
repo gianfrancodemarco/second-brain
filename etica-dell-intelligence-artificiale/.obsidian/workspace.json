@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "identit",
+                "query": "esplicabilit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,11 +174,13 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "211428514c543a89",
+  "active": "1e352165db9a5712",
   "lastOpenFiles": [
-    "1. Passato - l'origine dell'intelligenza artificiale.md",
-    "100. Glossario.md",
     "1.1 Tecnologia.md",
+    "1. Passato - l'origine dell'intelligenza artificiale.md",
+    "4. Un quadro unificato di principi etici per l'IA.md",
+    "1.2 Il potere di scissione del digitale - tagliare e incollare la modernità.md",
+    "100. Glossario.md",
     "pdfs/0. Etica dell'intelligenza artificiale.pdf",
     "pdfs/1. Passato - l'origine dell'intelligenza artificiale-unito.pdf",
     "pdfs/1.4 Nuove forme dell'agire.pdf",
@@ -201,14 +202,12 @@
     "9. Uso dell'IA per il bene sociale.md",
     "3.3 GANs.md",
     "3.1 Dati storici, ibridi e sintetici e il bisogno di ludicizzazione.md",
-    "1.2 Il potere di scissione del digitale - tagliare e incollare la modernità.md",
     "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
     "Chi si adatterà a chi?.md",
     "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md",
     "7. La mappatura dell'etica degli algoritmi.md",
     "6. Etica soft e governance dell'AI.md",
     "5. Dai principi alle pratiche - i rischi di comportamenti contrari all'etica.md",
-    "4. Un quadro unificato di principi etici per l'IA.md",
     "3. Futuro - lo sviluppo prevedibile dell'AI.md",
     "3.2 Problemi difficili, problemi complessi e bisogno di avvolgimento.md",
     "AI Simbolica.md",
