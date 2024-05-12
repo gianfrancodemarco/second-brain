@@ -27,7 +27,12 @@
 		{"id":"ebdd30bc2fbaa9d3","x":1920,"y":-200,"width":360,"height":57,"type":"text","text":"#### Stage 1: Starting with data"},
 		{"id":"05edfe806cec8e4e","x":2420,"y":-173,"width":504,"height":60,"type":"text","text":"Adoption and utilization are likely low or nonexistent"},
 		{"id":"7a668c328bb648be","x":2420,"y":-92,"width":680,"height":58,"type":"text","text":"a **data engineer is usually a generalist** and will typically play several other roles"},
-		{"id":"3819299545d900b0","x":3360,"y":-94,"width":760,"height":314,"type":"text","text":"- Get buy-in from key stakeholders, including executive management\n- Define the right data architecture \n- Identify and audit data that will support key initiatives and operate within the data designed architecture\n- Build a solid data foundation for future data analysts and data scientists to generate reports and models that provide competitive value. In the meantime, you may also have to generate these reports and models until this team is hired."}
+		{"id":"3819299545d900b0","x":3360,"y":-94,"width":760,"height":160,"type":"text","text":"- Getting buy-in from key stakeholders, including executive management\n- Defining the right data architecture \n- Identifying and audit data that will support key initiatives and operate within the data designed architecture\n- Building a solid data foundation for future data analysts and data scientists"},
+		{"id":"b40e1e8d88dde1f2","x":2420,"y":260,"width":462,"height":60,"type":"text","text":"company has formal data practices"},
+		{"id":"ef994d1221f89095","type":"text","text":"#### Stage 2: Scaling with data","x":1920,"y":411,"width":360,"height":57},
+		{"id":"a5990821db05459a","x":2422,"y":351,"width":558,"height":60,"type":"text","text":"challenge is creating scalable data architectures"},
+		{"id":"355d7b9ab5181efa","type":"text","text":"data engineers move from generalist to specialists","x":2422,"y":440,"width":680,"height":58},
+		{"id":"0da26f29ca8c2dcd","x":3360,"y":498,"width":467,"height":60,"type":"text","text":"- Establish formal data practices\n- Create scalable and robust data architectures\n- Adopt DevOps and DataOps practices \n- Build systems that support ML • Continue to avoid undifferentiated heavy lifting and customize only when a competitive advantage results"}
 	],
 	"edges":[
 		{"id":"c9e441db3f48199e","fromNode":"e116a414edeb65e4","fromSide":"bottom","toNode":"cc7a9b40562ee5e1","toSide":"top","label":"is the"},
@@ -51,6 +56,11 @@
 		{"id":"2e971d62d85248ec","fromNode":"ebdd30bc2fbaa9d3","fromSide":"right","toNode":"414d9f5089abd200","toSide":"left"},
 		{"id":"1b323533ec62a637","fromNode":"ebdd30bc2fbaa9d3","fromSide":"right","toNode":"05edfe806cec8e4e","toSide":"left"},
 		{"id":"7d9aaf1f48f5c60e","fromNode":"ebdd30bc2fbaa9d3","fromSide":"right","toNode":"7a668c328bb648be","toSide":"left"},
-		{"id":"97dca88967bbcf5d","fromNode":"7a668c328bb648be","fromSide":"right","toNode":"3819299545d900b0","toSide":"left","label":"Should focus on"}
+		{"id":"97dca88967bbcf5d","fromNode":"7a668c328bb648be","fromSide":"right","toNode":"3819299545d900b0","toSide":"left","label":"Should focus on"},
+		{"id":"a7802692b6b6f17e","fromNode":"209d324813110008","fromSide":"right","toNode":"ef994d1221f89095","toSide":"left"},
+		{"id":"2d8950df4ccea074","fromNode":"ef994d1221f89095","fromSide":"right","toNode":"b40e1e8d88dde1f2","toSide":"left"},
+		{"id":"201469aa56f7fe10","fromNode":"ef994d1221f89095","fromSide":"right","toNode":"a5990821db05459a","toSide":"left"},
+		{"id":"7ac15b1ec9c927ef","fromNode":"ef994d1221f89095","fromSide":"right","toNode":"355d7b9ab5181efa","toSide":"left"},
+		{"id":"47541bc1e4b60462","fromNode":"355d7b9ab5181efa","fromSide":"right","toNode":"0da26f29ca8c2dcd","toSide":"left","label":"Should focus on"}
 	]
 }
