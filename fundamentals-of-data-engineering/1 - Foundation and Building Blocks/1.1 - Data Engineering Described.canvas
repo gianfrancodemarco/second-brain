@@ -37,7 +37,7 @@
 		{"id":"44d26b5f9a1aab1e","x":2424,"y":549,"width":250,"height":60,"type":"text","text":"company is data-driven"},
 		{"id":"fadaf16d02df7be5","x":2420,"y":660,"width":550,"height":60,"type":"text","text":"pipelines and systems allow people to do self-service analysis"},
 		{"id":"fedfdfcbdbe79970","type":"text","text":"data engineers specialize more deeply","x":2424,"y":780,"width":680,"height":58},
-		{"id":"af0c85c0960c4f12","x":3327,"y":935,"width":793,"height":205,"type":"text","text":"- Create automation for the seamless introduction and usage of new data \n- Focus on building custom tools and systems\n- Focus on the “enterprisey” aspects of data, such as data management (including data governance and quality) and DataOps • Deploy tools that expose and disseminate data throughout the organization, including data catalogs, data lineage tools, and metadata management systems 16 | Chapter 1: Data Engineering Described • Collaborate efficiently with software engineers, ML engineers, analysts, and others • Create a community and environment where people can collaborate and speak openly, no matter their role or position"}
+		{"id":"af0c85c0960c4f12","x":3360,"y":940,"width":793,"height":96,"type":"text","text":"- Create automation for the seamless introduction and usage of new data \n- Focus on building custom tools and systems\n- Focus on the “enterprisey” aspects of data, such as data management and DataOps"}
 	],
 	"edges":[
 		{"id":"c9e441db3f48199e","fromNode":"e116a414edeb65e4","fromSide":"bottom","toNode":"cc7a9b40562ee5e1","toSide":"top","label":"is the"},
