@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "cc3874a21168ea83",
+    "type": "split",
+    "children": [
+      {
+        "id": "715122b5667837eb",
+        "type": "split",
+        "children": [
+          {
+            "id": "ac804064b3986887",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3c3910a522ed7a8d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "fa48d2ac4dccc019",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6850aa6e4c1f0472",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "65858ee4a6374bd9",
+    "type": "split",
+    "children": [
+      {
+        "id": "43361fadcc28038a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6fdd5a2f1c611ab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ba6e8212507a783b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "00517232944c7285",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c0822e6561fa887d",
+    "type": "split",
+    "children": [
+      {
+        "id": "df7d95c1c5f2520a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ef3c1c11f4c1cce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "76418a831acdd15a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e6ea690212aabb7d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "37991f87ca87299e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "3c3910a522ed7a8d",
+  "lastOpenFiles": [
+    "Pasted image 20240512170939.png",
+    "Untitled.md",
+    "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.md",
+    "README.md",
+    "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described 1.md",
+    "Excalidraw/Data Engineering 2024-05-12 17.00.12.excalidraw.md",
+    "Excalidraw",
+    "fundamentals-of-data-engineering/I - Foundation and Building Blocks/i - Data Engineering Described",
+    "fundamentals-of-data-engineering/1 - Foundation and Building Blocks",
+    "fundamentals-of-data-engineering"
+  ]
+}

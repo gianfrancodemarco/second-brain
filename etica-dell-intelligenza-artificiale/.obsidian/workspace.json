@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "3293f3a8a853195c",
+    "type": "split",
+    "children": [
+      {
+        "id": "05a1a20dbafbfc32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "500004c29112723d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. La mappatura dell'etica degli algoritmi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "74a77b1e09d48bc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e1bc77318db98ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56d54e999e3e5d19",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f3d7aa89ac8fcfa3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "211428514c543a89",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "esplicabilit",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 403.5
+  },
+  "right": {
+    "id": "ce9b2ed2df3a3a75",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a56a0576a6a115a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2658d1aeefcb368",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "7. La mappatura dell'etica degli algoritmi.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "69edf64ee4cba68f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "7. La mappatura dell'etica degli algoritmi.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "016439408d2e412e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0a303c15dcd7e313",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "7. La mappatura dell'etica degli algoritmi.md"
+              }
+            }
+          },
+          {
+            "id": "bf5dfd57a03e8028",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "7db3f550b15eee4d",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 406.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false
+    }
+  },
+  "active": "500004c29112723d",
+  "lastOpenFiles": [
+    "7.1 Privacy Differenziale.md",
+    "7. La mappatura dell'etica degli algoritmi.md",
+    "Infosfera.md",
+    "1.1 Tecnologia.md",
+    "8. Cattive pratiche - l'uso improprio dell'AI per il male sociale.md",
+    "3.3 Problemi difficili, problemi complessi e bisogno di avvolgimento.md",
+    "3.2 GANs.md",
+    "3.1 Dati storici, ibridi e sintetici e il bisogno di ludicizzazione.md",
+    "2. Presente - IA come nuova forma dell'agire e non dell'intelligenza.md",
+    "2.1 L'uso degli esseri umani e delle interfacce.md",
+    "1.3 Etica, governance e design.md",
+    "1.2 Il potere di scissione del digitale - tagliare e incollare la modernità.md",
+    "1. Passato - l'origine dell'intelligenza artificiale.md",
+    "100. Glossario.md",
+    "pdfs/0 - Etica dell'intelligenza artificiale.pdf",
+    "pdfs/1. Passato - l'origine dell'intelligenza artificiale-unito.pdf",
+    "pdfs/1.2 Il potere di scissione del digitale - tagliare e incollare la modernità.pdf",
+    "100. Glossario.pdf",
+    "4. Un quadro unificato di principi etici per l'IA.pdf",
+    "1.2 Il potere di scissione del digitale - tagliare e incollare la modernità.pdf",
+    "4. Un quadro unificato di principi etici per l'IA.md",
+    "pdfs/0. Etica dell'intelligenza artificiale.pdf",
+    "pdfs/1.4 Nuove forme dell'agire.pdf",
+    "pdfs/1.3 Etica, governance e design.pdf",
+    "pdfs/7.1 Privacy Differenziale.pdf",
+    "ontologicamente.md",
+    "1.4 Nuove forme dell'agire.md",
+    "Governance.md",
+    "epistemologicamente.md",
+    "9. Uso dell'IA per il bene sociale.md",
+    "Chi si adatterà a chi?.md",
+    "6. Etica soft e governance dell'AI.md",
+    "5. Dai principi alle pratiche - i rischi di comportamenti contrari all'etica.md",
+    "3. Futuro - lo sviluppo prevedibile dell'AI.md",
+    "AI Simbolica.md",
+    "images/Pasted image 20240119191541.png",
+    "images/Pasted image 20240118224036.png",
+    "images/Pasted image 20240118133155.png",
+    "images/Pasted image 20240118005120.png",
+    "images/Pasted image 20240118005437.png",
+    "images/Pasted image 20240118005138.png",
+    "images/Pasted image 20240118005021.png",
+    "images/Pasted image 20240118003701.png",
+    "images/etica.png",
+    "Untitled.canvas",
+    "images/governance.png"
+  ]
+}

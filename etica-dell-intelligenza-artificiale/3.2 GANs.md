@@ -1,0 +1,6 @@
+Due reti neurali – un Generatore e un Discriminatore – competono l’una contro l’altra per avere successo in un gioco. 
+
+Lo scopo del gioco per il Generatore è di trarre in inganno il Discriminatore con esempi che paiono simili al set di addestramento. 
+Quando il Discriminatore rigetta un esempio prodotto dal Generatore, il Generatore impara qualcosa di più su come si presenta un buon esempio. 
+In altri termini, il Discriminatore fa trapelare informazioni su quanto il Generatore fosse vicino e su come dovrebbe procedere per avvicinarsi. 
+Col passare del tempo, il Discriminatore impara dal set di addestramento e invia segnali sempre più signicativi al Generatore. Quando ciò si verica, il Generatore si avvicina sempre di più all’apprendimento dell’aspetto degli esempi dal set di addestramento. Ancora una volta, gli unici input che il Generatore ha sono una distribuzione iniziale di probabilità (spesso la distribuzione normale) e l’indicatore che riceve dal Discriminatore. Non vede mai alcun esempio reale.

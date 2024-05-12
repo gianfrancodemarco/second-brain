@@ -1,0 +1,1 @@
+Che riguarda la conoscenza dell’essere, della realtà, dell’oggetto in sé
