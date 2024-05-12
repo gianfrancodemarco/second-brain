@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"2581531d10d66ecb","type":"group","x":-620,"y":280,"width":760,"height":480,"label":" "},
+		{"id":"3f7561c59b2f74ad","type":"file","file":"fundamentals-of-data-engineering/1 - Foundation and Building Blocks/Data Engineering Lifecycle.png","x":-600,"y":380,"width":716,"height":360},
+		{"id":"528b87a942f1b779","type":"text","text":"\n##  <center> The Data Engineering Lifecycle</center>\n\n","x":-482,"y":300,"width":480,"height":50},
+		{"id":"6ffd7be733636163","type":"text","text":"#### dedicated specialists—**data engineers**— to maintain data so that it remains available and usable by others","x":-120,"y":-36,"width":380,"height":156},
+		{"id":"e116a414edeb65e4","type":"text","text":"#  <center> Data Engineering </center>","x":-482,"y":-340,"width":480,"height":60},
+		{"id":"2f5eb8182b7586ef","type":"text","text":"## Undercurrents\n#### Critical ideas across the entire lifecycle","x":460,"y":922,"width":547,"height":91},
+		{"id":"cc7a9b40562ee5e1","type":"text","text":"#### development, implementation, and maintenance of systems and processes that take in raw data and produce high-quality, consistent information that supports downstream use cases, such as analysis and machine learning","x":-914,"y":-36,"width":594,"height":196},
+		{"id":"cf27aa7fbabc6f93","type":"text","text":"## Stages","x":-1045,"y":880,"width":150,"height":50},
+		{"id":"e323ece156dfa325","type":"text","text":"### Generation","x":-1725,"y":1298,"width":250,"height":60},
+		{"id":"81077c09180b5177","type":"text","text":"## Storage","x":-1405,"y":1298,"width":250,"height":60},
+		{"id":"a99a7cbee89664a6","type":"text","text":"## Ingestion","x":-1095,"y":1298,"width":250,"height":60},
+		{"id":"6ae97b545eeae318","type":"text","text":"## Transformation","x":-765,"y":1298,"width":250,"height":60},
+		{"id":"6d9fe19edcc0d812","type":"text","text":"## Serving","x":-445,"y":1298,"width":250,"height":60},
+		{"id":"0093fae979f9a50d","type":"text","text":"## Security","x":-40,"y":1408,"width":250,"height":60},
+		{"id":"9187170df62d0395","type":"text","text":"## Data Management","x":135,"y":1560,"width":325,"height":60},
+		{"id":"13e4941a8e49ed4b","type":"text","text":"## Data Architecture ","x":723,"y":1700,"width":284,"height":51},
+		{"id":"be41f97aa8d49fe8","type":"text","text":"## DataOps","x":429,"y":1701,"width":250,"height":50},
+		{"id":"f44c32130bd483a0","type":"text","text":"## Orchestration","x":940,"y":1560,"width":284,"height":51},
+		{"id":"494ca045940442b3","type":"text","text":"## Software Engineering ","x":1280,"y":1427,"width":360,"height":82}
+	],
+	"edges":[
+		{"id":"c9e441db3f48199e","fromNode":"e116a414edeb65e4","fromSide":"bottom","toNode":"cc7a9b40562ee5e1","toSide":"top","label":"is the"},
+		{"id":"c5855df162739b77","fromNode":"e116a414edeb65e4","fromSide":"bottom","toNode":"6ffd7be733636163","toSide":"top","label":"takes by"},
+		{"id":"46e047b5cb8008e0","fromNode":"2581531d10d66ecb","fromSide":"bottom","toNode":"cf27aa7fbabc6f93","toSide":"top"},
+		{"id":"cccd3596c0d08b14","fromNode":"2581531d10d66ecb","fromSide":"bottom","toNode":"2f5eb8182b7586ef","toSide":"top"},
+		{"id":"0588a3edea542680","fromNode":"cf27aa7fbabc6f93","fromSide":"bottom","toNode":"e323ece156dfa325","toSide":"top"},
+		{"id":"32a56a73612643fc","fromNode":"cf27aa7fbabc6f93","fromSide":"bottom","toNode":"81077c09180b5177","toSide":"top"},
+		{"id":"fad98f9887727a0f","fromNode":"cf27aa7fbabc6f93","fromSide":"bottom","toNode":"a99a7cbee89664a6","toSide":"top"},
+		{"id":"6b844fb28cdd60c7","fromNode":"cf27aa7fbabc6f93","fromSide":"bottom","toNode":"6ae97b545eeae318","toSide":"top"},
+		{"id":"4a96813307fa5453","fromNode":"cf27aa7fbabc6f93","fromSide":"bottom","toNode":"6d9fe19edcc0d812","toSide":"top"},
+		{"id":"24202192670d982e","fromNode":"2f5eb8182b7586ef","fromSide":"bottom","toNode":"0093fae979f9a50d","toSide":"top"},
+		{"id":"dc62ed0f85344f03","fromNode":"2f5eb8182b7586ef","fromSide":"bottom","toNode":"9187170df62d0395","toSide":"top"},
+		{"id":"62e7ad552838ebe8","fromNode":"2f5eb8182b7586ef","fromSide":"bottom","toNode":"be41f97aa8d49fe8","toSide":"top"},
+		{"id":"0ca64eb7aa7a831a","fromNode":"2f5eb8182b7586ef","fromSide":"bottom","toNode":"13e4941a8e49ed4b","toSide":"top"},
+		{"id":"0869c4d260b383d3","fromNode":"2f5eb8182b7586ef","fromSide":"bottom","toNode":"f44c32130bd483a0","toSide":"top"},
+		{"id":"a913b0e68a298174","fromNode":"2f5eb8182b7586ef","fromSide":"bottom","toNode":"494ca045940442b3","toSide":"top"}
+	]
+}
