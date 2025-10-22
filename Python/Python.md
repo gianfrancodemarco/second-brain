@@ -39,7 +39,8 @@ The Python interpreter is a **software implementation of the Python language**. 
 
 CPython is implemented in **C**, so the PVM loop is essentially **a C function executing bytecode instructions**:
 
-`for (;;) {
+```c
+for (;;) {
     opcode = NEXTOP();
     switch(opcode) {
         case LOAD_CONST:
@@ -53,7 +54,15 @@ CPython is implemented in **C**, so the PVM loop is essentially **a C function e
         ...
     }
 }
+```
 
+Steps:
+
+1. Fetch the next bytecode instruction.
+2. Decode it into an operation (`opcode`) and optional argument (`oparg`).
+3. Execute the operation via corresponding C functions (like `PyNumber_Add`).
+4. Update the stack and program counter.
+Essentially, the **Python code is indirectly executed** as C code operating on a stack of Python objects.
 
 Steps:
 
@@ -79,6 +88,7 @@ Python is **interpreted**, not compiled to machine code, though it uses **compil
 - Python Glossary: Interpreter
 - The Python Language Reference
 - How Python Runs Programs — Python.org Tutorial
+
 ### Memory Management
 
 Python’s memory management system is an automatic and layered mechanism built to balance flexibility with safety. It integrates **reference counting**, **garbage collection**, and **memory pooling** to optimize allocation, reuse, and release of objects in the interpreter.
@@ -177,4 +187,4 @@ gc.get_stats()        # view stats per generation
 6. P. Sommerlad, _Inside CPython Memory Management_, PyCon Talk (2022).
 7. Python Enhancement Proposal 445 — _Add memoryview.cast()_.
 
-## Concurrency
+### Concurrency
