@@ -11,17 +11,14 @@
             "id": "bbab422fd41ee048",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.canvas",
-                "viewState": {
-                  "x": 1972.6444695251575,
-                  "y": 321.62895917992455,
-                  "zoom": -1.6
-                }
+                "file": "Python/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "1.1 - Data Engineering Described"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -97,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.canvas",
+                "file": "Python/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1.1 - Data Engineering Described"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -116,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.canvas",
+                "file": "Python/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1.1 - Data Engineering Described"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -145,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.canvas",
+                "file": "Python/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1.1 - Data Engineering Described"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -160,8 +157,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-history-view"
+              "icon": "history",
+              "title": "History"
             }
           }
         ],
@@ -179,20 +176,24 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "canvas:Create new canvas": false
+      "canvas:Create new canvas": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "bbab422fd41ee048",
+  "active": "f6fdd5a2f1c611ab",
   "lastOpenFiles": [
-    "Pasted image 20240512174058.png",
+    "README.md",
+    "Python/Untitled.md",
+    "Python",
     "Untitled.md",
     "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.canvas",
     "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/Data Engineering Lifecycle.png",
-    "README.md",
+    "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/Pasted image 20240512174058.png",
+    "Excalidraw/Data Engineering 2024-05-12 17.00.12.excalidraw.md",
     "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.md",
     "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/Untitled.md",
     "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described 1.md",
-    "Excalidraw/Data Engineering 2024-05-12 17.00.12.excalidraw.md",
     "Excalidraw",
     "fundamentals-of-data-engineering/I - Foundation and Building Blocks/i - Data Engineering Described",
     "fundamentals-of-data-engineering/1 - Foundation and Building Blocks",
