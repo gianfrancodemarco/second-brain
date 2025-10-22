@@ -17,7 +17,68 @@ The Python interpreter is a **software implementation of the Python language**. 
 - **Compilation** into Python bytecode (`.pyc` files).
 - **Execution** of bytecode within the **Python Virtual Machine (PVM)**.
 - **Runtime environment** for managing objects, memory, and garbage collection.
-- 
+
+#### Core Workflow
+
+1. **Source code input** (`.py` file)  
+    → UTF-8 text containing Python instructions.
+    
+2. **Lexical analysis**  
+    → Breaks text into tokens (`if`, `x`, `=`, `3`).
+    
+3. **Parsing**  
+    → Builds an Abstract Syntax Tree (AST) from tokens.
+    
+4. **Compilation**  
+    → Converts AST to bytecode (`.pyc`) stored in `__pycache__/`.
+    
+5. **Execution**  
+    → The **PVM** reads bytecode instructions and executes them.
+
+#### PVM
+
+CPython is implemented in **C**, so the PVM loop is essentially **a C function executing bytecode instructions**:
+
+`for (;;) {
+    opcode = NEXTOP();
+    switch(opcode) {
+        case LOAD_CONST:
+            push(PyTuple_GET_ITEM(consts, oparg));
+            break;
+        case BINARY_ADD:
+            b = POP();
+            a = POP();
+            PUSH(PyNumber_Add(a, b));
+            break;
+        ...
+    }
+}
+
+
+Steps:
+
+1. Fetch the next bytecode instruction.
+    
+2. Decode it into an operation (`opcode`) and optional argument (`oparg`).
+    
+3. Execute the operation via corresponding C functions (like `PyNumber_Add`).
+    
+4. Update the stack and program counter.
+    
+
+Essentially, the **Python code is indirectly executed** as C code operating on a stack of Python objects.
+
+Python is **interpreted**, not compiled to machine code, though it uses **compilation to bytecode** internally.
+
+
+#### References
+
+- Python 3 Interpreter and Execution Model — Official Docs
+- [CPython Source Code — GitHub](https://github.com/python/cpython)
+- PyPy — Official Site
+- Python Glossary: Interpreter
+- The Python Language Reference
+- How Python Runs Programs — Python.org Tutorial
 ### Memory Management
 
 Python’s memory management system is an automatic and layered mechanism built to balance flexibility with safety. It integrates **reference counting**, **garbage collection**, and **memory pooling** to optimize allocation, reuse, and release of objects in the interpreter.
