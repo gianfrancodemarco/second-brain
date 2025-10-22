@@ -25,24 +25,54 @@ Every Python object maintains a **reference count** (`ob_refcnt`) that tracks ho
 **Mechanism:**
 
 - Incremented when a reference is created:
-    
-    `a = [1, 2, 3] b = a  # refcount +1`
-    
+
+ ```python
+    a = [1, 2, 3] 
+    b = a  # refcount +1
+```
+
 - Decremented when a reference is deleted or reassigned:
-    
-    `del a  # refcount -1`
-    
+
+  ```python 
+   del a  # refcount -1
+   ```
 
 When the count reaches **zero**, the memory manager immediately deallocates the object.
 
 **Pros:**
 
 - Deterministic destruction.
-    
 - Simple model for small programs.
-    
 
 **Cons:**
 
 - Cannot handle **reference cycles** (objects referencing each other).
+
+### Garbage Collection (Cycle Detection)
+
+To handle cycles (e.g., two objects referencing each other), Python includes a **cyclic garbage collector** (in the `gc` module).  
+It complements reference counting by identifying unreachable objects in cycles.
+
+**Implementation details:**
+
+- Uses a **generational approach**, dividing tracked objects into three generations (0, 1, 2).
+- Young objects start in generation 0; those surviving multiple collections are promoted.
+- Collection is triggered automatically when the number of allocations exceeds a threshold.
+
+**Simplified pseudocode:**
+
+```python
+if allocations - deallocations > threshold:
+	collect generation 0
+```
+
+**Generational hypothesis:**  
+Objects that survive early collections are likely to live longer, so older generations are collected less frequently.
+
+**Manual control:**
+
+```
+import gc 
+gc.collect() # force collection gc.disable()          # turn off automatic collection gc.get_stats()        # view stats per generation`
+
 ## GIL
