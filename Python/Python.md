@@ -10,6 +10,22 @@ Assignment is by reference (names bind to objects), and mutable vs immutable typ
 
 Python’s memory management system is an automatic and layered mechanism built to balance flexibility with safety. It integrates **reference counting**, **garbage collection**, and **memory pooling** to optimize allocation, reuse, and release of objects in the interpreter.
 
+| Area      | Managed by            | Used for                                             | Lifetime                             |
+| --------- | --------------------- | ---------------------------------------------------- | ------------------------------------ |
+| **Stack** | C runtime (OS)        | Function call frames, local references, control flow | Automatic, limited to function scope |
+| **Heap**  | Python memory manager | All Python objects (lists, ints, dicts, etc.)        | Dynamic, freed via refcount/GC       |
+
+Python code runs inside the **CPython interpreter**, which is implemented in C.  
+Each Python function call corresponds to a **C stack frame** that holds:
+- A pointer to the current **PyFrameObject** (metadata about the function).
+- Local variable references (not the objects themselves).
+- Control data for return addresses and exception handling.
+
+All Python objects are **heap-allocated**:
+- Integers, strings, classes, modules, functions, closures—all live in heap memory.
+- Allocation is handled through **pymalloc** and **the garbage collector**.
+
+This makes Python flexible but slower than stack-based allocation in compiled languages.
 ### Memory Model Overview
 
 Key components:
