@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "31d81f867fed2fb9",
+        "id": "0325bc53cd3d87fe",
         "type": "tabs",
         "children": [
           {
-            "id": "bbab422fd41ee048",
+            "id": "14cbb2cecc2223cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Stack based and Heap Based allocations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "Stack based and Heap Based allocations"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Stack based and Heap Based allocations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Python"
+              "title": "Backlinks for Stack based and Heap Based allocations"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Stack based and Heap Based allocations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Python"
+              "title": "Outgoing links from Stack based and Heap Based allocations"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Stack based and Heap Based allocations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Python"
+              "title": "Outline of Stack based and Heap Based allocations"
             }
           },
           {
@@ -181,18 +181,19 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "bbab422fd41ee048",
+  "active": "14cbb2cecc2223cd",
   "lastOpenFiles": [
     "Python/Python.md",
+    "Stack based and Heap Based allocations.md",
+    "stack-based.md",
+    "Python/Pydantic.md",
+    "README.md",
     "Pasted image 20251022200153.png",
     "Python/Poetry.md",
     "Python/Untitled.md",
     "Python/mypi.md",
     "Python/FastAPI.md",
-    "Python/Pydantic.md",
-    "README.md",
     "Python",
-    "Untitled.md",
     "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.canvas",
     "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/Data Engineering Lifecycle.png",
     "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/Pasted image 20240512174058.png",

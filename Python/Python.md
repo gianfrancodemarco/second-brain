@@ -25,7 +25,7 @@ All Python objects are **heap-allocated**:
 - Integers, strings, classes, modules, functions, closures—all live in heap memory.
 - Allocation is handled through **pymalloc** and **the garbage collector**.
 
-This makes Python flexible but slower than stack-based allocation in compiled languages.
+This makes Python flexible but slower than [[Stack based and Heap Based allocations|stack-based]] allocation in compiled languages.
 ### Memory Model Overview
 
 Key components:
