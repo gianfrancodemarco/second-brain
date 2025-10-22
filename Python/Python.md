@@ -71,8 +71,21 @@ Objects that survive early collections are likely to live longer, so older gener
 
 **Manual control:**
 
-```
+```python
 import gc 
-gc.collect() # force collection gc.disable()          # turn off automatic collection gc.get_stats()        # view stats per generation`
+gc.collect() # force collection
+gc.disable() # turn off automatic collection 
+gc.get_stats()        # view stats per generation
+```
+
+### References
+
+1. Python Software Foundation. _Memory Management in Python_. https://docs.python.org/3/c-api/memory.html
+2. Python `gc` Module Documentation. https://docs.python.org/3/library/gc.html
+3. Python Source Code — _Objects/obmalloc.c_ (CPython implementation of pymalloc)
+4. van Rossum, G. (2003). _Unifying types and classes in Python 2.2_. Python Enhancement Proposal (PEP 253).
+5. L. Bassi, _Python Internals: Memory Management_, Real Python (2023).
+6. P. Sommerlad, _Inside CPython Memory Management_, PyCon Talk (2022).
+7. Python Enhancement Proposal 445 — _Add memoryview.cast()_.
 
 ## GIL
