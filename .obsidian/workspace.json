@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stack based and Heap Based allocations.md",
+                "file": "dynamically-typed language.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack based and Heap Based allocations"
+              "title": "dynamically-typed language"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stack based and Heap Based allocations.md",
+                "file": "dynamically-typed language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Stack based and Heap Based allocations"
+              "title": "Backlinks for dynamically-typed language"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stack based and Heap Based allocations.md",
+                "file": "dynamically-typed language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Stack based and Heap Based allocations"
+              "title": "Outgoing links from dynamically-typed language"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stack based and Heap Based allocations.md",
+                "file": "dynamically-typed language.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Stack based and Heap Based allocations"
+              "title": "Outline of dynamically-typed language"
             }
           },
           {
@@ -183,6 +183,7 @@
   },
   "active": "14cbb2cecc2223cd",
   "lastOpenFiles": [
+    "dynamically-typed language.md",
     "Python/Python.md",
     "Stack based and Heap Based allocations.md",
     "stack-based.md",

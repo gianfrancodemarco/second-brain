@@ -37,7 +37,8 @@ free(p);
 int* p = malloc(sizeof(int));  *p = 10;  free(p);
 ```
 
-## 2. Why Stack Allocation Is Faster
+## 
+Why Stack Allocation Is Faster
 
 1. **No fragmentation:** Stack is contiguous and predictable.
 2. **Constant-time allocation:** One pointer (`stack pointer`) moves up or down.
@@ -47,9 +48,7 @@ int* p = malloc(sizeof(int));  *p = 10;  free(p);
 By contrast, **heap allocation**:
 
 - Uses complex data structures (free lists, trees, or arenas).
-    
 - Requires synchronization across threads.
-    
 - Must track free/used blocks and sometimes perform compaction.
 
-Hence, Python—where all objects live on the heap—pays this overhead for flexibility.
+Hence, [[Python]]—where all objects live on the heap—pays this overhead for flexibility.
