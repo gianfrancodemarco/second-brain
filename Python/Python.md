@@ -6,7 +6,19 @@ Assignment is by reference (names bind to objects), and mutable vs immutable typ
 
 > Dictionaries are ordered since python 3.6
 
-## Memory Management
+### Interpreter
+
+The **Python interpreter** is the core program that executes Python code. It reads source code, converts it into an intermediate representation (bytecode), and runs it line by line in a virtual machine.
+
+_____
+The Python interpreter is a **software implementation of the Python language**. It provides:
+
+- **Lexical analysis** and **parsing** of source code.
+- **Compilation** into Python bytecode (`.pyc` files).
+- **Execution** of bytecode within the **Python Virtual Machine (PVM)**.
+- **Runtime environment** for managing objects, memory, and garbage collection.
+- 
+### Memory Management
 
 Python’s memory management system is an automatic and layered mechanism built to balance flexibility with safety. It integrates **reference counting**, **garbage collection**, and **memory pooling** to optimize allocation, reuse, and release of objects in the interpreter.
 
@@ -104,4 +116,4 @@ gc.get_stats()        # view stats per generation
 6. P. Sommerlad, _Inside CPython Memory Management_, PyCon Talk (2022).
 7. Python Enhancement Proposal 445 — _Add memoryview.cast()_.
 
-## GIL
+## Concurrency
