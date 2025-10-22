@@ -37,8 +37,7 @@ free(p);
 int* p = malloc(sizeof(int));  *p = 10;  free(p);
 ```
 
-## 
-Why Stack Allocation Is Faster
+## Why Stack Allocation Is Faster
 
 1. **No fragmentation:** Stack is contiguous and predictable.
 2. **Constant-time allocation:** One pointer (`stack pointer`) moves up or down.
@@ -52,3 +51,75 @@ By contrast, **heap allocation**:
 - Must track free/used blocks and sometimes perform compaction.
 
 Hence, [[Python]]—where all objects live on the heap—pays this overhead for flexibility.
+
+
+| Feature                           | **C**                                                | **Python (CPython)**                                   | **Java (JVM)**                                             |
+| --------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- |
+| **Primary Allocation Model**      | Stack for locals, heap for dynamic data              | All objects on heap (managed by Python memory manager) | Stack for primitives/references, heap for objects          |
+| **Stack Allocation**              | Manual, automatic per function call                  | Used only for interpreter call frames (not user data)  | Automatic per thread, holds local variables and references |
+| **Heap Allocation**               | Manual via `malloc/free` or `new/delete`             | Automatic via `pymalloc` + reference counting + GC     | Automatic via generational GC                              |
+| **Memory Management**             | Manual                                               | Automatic (refcount + cyclic GC)                       | Automatic (tracing GC)                                     |
+| **Determinism**                   | Full (developer frees memory)                        | Partial (refcount immediate, cycles deferred)          | None (depends on GC timing)                                |
+| **Performance**                   | Very fast (stack) / efficient (heap if managed well) | Moderate to slow (all heap allocations)                | High (optimized heap, JIT, GC tuning)                      |
+| **Safety**                        | Low (manual errors possible)                         | High (no manual freeing)                               | High (safe managed runtime)                                |
+| **Stack Size**                    | Fixed or configurable per thread                     | Fixed by C runtime (used indirectly)                   | Fixed or configurable per thread                           |
+| **Garbage Collection**            | None                                                 | Yes (cyclic)                                           | Yes (generational tracing)                                 |
+| **Memory Fragmentation Handling** | Programmer responsibility                            | Managed internally (arenas, pools)                     | Automatic via compaction                                   |
+| **References**                    | Raw pointers                                         | Python object references                               | Object handles (references)                                |
+| **Example Lifetime Control**      | `malloc` / `free`                                    | Implicit (refcount decrement)                          | Implicit (GC pass)                                         |
+
+### Key Takeaways
+
+- **Stack** = speed, locality, limited lifetime.
+- **Heap** = flexibility, indirection, overhead.
+- **Modern languages** often mix both: stack for primitives, heap for complex or shared data.
+- **Python’s choice** to allocate everything on the heap simplifies semantics but sacrifices raw speed.
+- **Low-level control (C, Rust)** trades safety for performance.
+- **Managed runtimes (Java, Go, C#)** optimize heap management to bridge that gap.
+
+### References (Consolidated)
+
+1. Kernighan & Ritchie, _The C Programming Language_, Prentice Hall (1988).
+2. Oracle Java SE 21 — Garbage Collection Tuning Guide.
+    
+3. Python Memory Management, Python.org Docs.
+    
+4. Go Memory Management FAQ.
+    
+5. The Rust Programming Language Book.
+    
+6. Microsoft .NET GC Fundamentals.
+    
+7. V8 JavaScript Engine Blog.
+    
+8. Swift Automatic Reference Counting (ARC).
+|Feature|**C**|**Python (CPython)**|**Java (JVM)**|
+|---|---|---|---|
+|**Primary Allocation Model**|Stack for locals, heap for dynamic data|All objects on heap (managed by Python memory manager)|Stack for primitives/references, heap for objects|
+|**Stack Allocation**|Manual, automatic per function call|Used only for interpreter call frames (not user data)|Automatic per thread, holds local variables and references|
+|**Heap Allocation**|Manual via `malloc/free` or `new/delete`|Automatic via `pymalloc` + reference counting + GC|Automatic via generational GC|
+|**Memory Management**|Manual|Automatic (refcount + cyclic GC)|Automatic (tracing GC)|
+|**Determinism**|Full (developer frees memory)|Partial (refcount immediate, cycles deferred)|None (depends on GC timing)|
+|**Performance**|Very fast (stack) / efficient (heap if managed well)|Moderate to slow (all heap allocations)|High (optimized heap, JIT, GC tuning)|
+|**Safety**|Low (manual errors possible)|High (no manual freeing)|High (safe managed runtime)|
+|**Stack Size**|Fixed or configurable per thread|Fixed by C runtime (used indirectly)|Fixed or configurable per thread|
+|**Garbage Collection**|None|Yes (cyclic)|Yes (generational tracing)|
+|**Memory Fragmentation Handling**|Programmer responsibility|Managed internally (arenas, pools)|Automatic via compaction|
+|**References**|Raw pointers|Python object references|Object handles (references)|
+|**Example Lifetime Control**|`malloc` / `free`|Implicit (refcount decrement)|Implicit (GC pass)|
+
+---
+
+### References
+
+1. [The C Programming Language — Kernighan & Ritchie, Prentice Hall (1988)](https://en.wikipedia.org/wiki/The_C_Programming_Language)
+    
+2. [Python C API: Memory Management](https://docs.python.org/3/c-api/memory.html)
+    
+3. [Python Garbage Collector Documentation (`gc` module)](https://docs.python.org/3/library/gc.html)
+    
+4. [Oracle Java SE 21 — Garbage Collection Tuning Guide](https://docs.oracle.com/en/java/javase/21/gctuning/index.html)
+    
+5. [Inside the Python Memory Manager — Real Python (2023)](https://realpython.com/python-memory-management/)
+    
+6. [JVM Architecture Overview — Oracle Docs](https://docs.oracle.com/javase/specs/)
