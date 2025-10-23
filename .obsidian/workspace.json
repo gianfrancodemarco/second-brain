@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Python"
             }
+          },
+          {
+            "id": "f326d5eb0006dba5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/AsyncIO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AsyncIO"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Python/AsyncIO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Python"
+              "title": "Backlinks for AsyncIO"
             }
           },
           {
@@ -128,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Python/AsyncIO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Python"
+              "title": "Outgoing links from AsyncIO"
             }
           },
           {
@@ -157,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Python/AsyncIO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Python"
+              "title": "Outline of AsyncIO"
             }
           },
           {
@@ -196,11 +210,12 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "bd697385a55e45a6",
+  "active": "f6fdd5a2f1c611ab",
   "lastOpenFiles": [
+    "Python/AsyncIO.md",
+    "Python/Python.md",
     "Stack based and Heap Based allocations.md",
     "dynamically-typed language.md",
-    "Python/Python.md",
     "stack-based.md",
     "Python/Pydantic.md",
     "README.md",

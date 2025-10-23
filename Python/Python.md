@@ -182,7 +182,7 @@ gc.get_stats()        # view stats per generation
 6. P. Sommerlad, _Inside CPython Memory Management_, PyCon Talk (2022).
 7. Python Enhancement Proposal 445 — _Add memoryview.cast()_.
 
-### Global Interpreter Lock (GIL) and Concurrency
+### Global Interpreter Lock (GIL) and Parallelism
 
 The **GIL (Global Interpreter Lock)** is a mutual exclusion lock in **CPython**, ensuring that only **one thread executes Python bytecode at any given time**, even on multi-core systems.
 
@@ -209,36 +209,40 @@ Python supports multiple concurrency models. Their interaction with the GIL dete
 ##### a. Threading (`threading` module)
 
 - **Concurrency type:** Cooperative time-sharing between threads.
-
 - **GIL effect:** Only one thread runs Python code at a time, so **no CPU parallelism**.
-    
 - **Ideal for:** I/O-bound tasks (web requests, file I/O).
-    
 - **Reason:** GIL is released during I/O waits.
-    
 
-### b. Multiprocessing (`multiprocessing` module)
+##### b. Multiprocessing (`multiprocessing` module)
 
 - **Concurrency type:** True parallelism via multiple processes.
-    
 - **GIL effect:** None — each process has its own interpreter and GIL.
-    
 - **Ideal for:** CPU-bound tasks (data processing, ML inference).
-    
 - **Trade-off:** Higher memory and inter-process communication (IPC) overhead.
-    
 
-### c. AsyncIO (`asyncio` module)
+##### c. [[AsyncIO]] (`asyncio` module)
 
 - **Concurrency type:** Single-threaded cooperative multitasking using an event loop.
-    
 - **GIL effect:** Minimal — tasks yield voluntarily (`await`), so the GIL rarely causes contention.
-    
 - **Ideal for:** High-volume I/O workloads (servers, APIs, network clients).
-    
 
 ### d. `concurrent.futures`
 
 - **ThreadPoolExecutor:** A high-level wrapper around `threading` (subject to GIL).
-    
 - **ProcessPoolExecutor:** A high-level wrapper around `multiprocessing` (bypasses GIL).
+
+
+|Mechanism|Runs in|True Parallelism|GIL Bound?|Common Use|
+|---|---|---|---|---|
+|Threading|One process|No|Yes|I/O concurrency|
+|Multiprocessing|Multiple processes|Yes|No|CPU parallelism|
+|AsyncIO|One process/thread|No (cooperative)|No practical effect|Async I/O concurrency|
+|C Extensions (NumPy, etc.)|One process|Yes (via native code)|Can release GIL|Compute acceleration|
+
+## References
+
+- Python C API – GIL and Thread State
+- PEP 703 – No-GIL Proposal
+- Real Python – Concurrency and Parallelism
+- [David Beazley – Understanding the GIL (PyCon Talk)](https://www.youtube.com/watch?v=ph374fJqFPE)
+- AsyncIO Documentation
