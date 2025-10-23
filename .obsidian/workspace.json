@@ -4,67 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0325bc53cd3d87fe",
+        "id": "51173ae6633eba75",
         "type": "tabs",
         "children": [
           {
-            "id": "14cbb2cecc2223cd",
+            "id": "ef4047a6e95e4a3a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stack based and Heap Based allocations.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Stack based and Heap Based allocations"
-            }
-          },
-          {
-            "id": "bd697385a55e45a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Python.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python"
-            }
-          },
-          {
-            "id": "f326d5eb0006dba5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/FastAPI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "FastAPI"
-            }
-          },
-          {
-            "id": "9f52f69c8142df28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/ASGI and WSGI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ASGI and WSGI"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,7 +184,7 @@
     "Python/Poetry.md",
     "Python/asyncIO.md",
     "Python/Python.md",
-    "Stack based and Heap Based allocations.md",
+    "Python/Stack based and Heap Based allocations.md",
     "dynamically-typed language.md",
     "stack-based.md",
     "Python/Pydantic.md",
