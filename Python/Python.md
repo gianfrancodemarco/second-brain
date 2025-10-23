@@ -67,18 +67,13 @@ Essentially, the **Python code is indirectly executed** as C code operating on a
 Steps:
 
 1. Fetch the next bytecode instruction.
-    
 2. Decode it into an operation (`opcode`) and optional argument (`oparg`).
-    
 3. Execute the operation via corresponding C functions (like `PyNumber_Add`).
-    
 4. Update the stack and program counter.
-    
 
 Essentially, the **Python code is indirectly executed** as C code operating on a stack of Python objects.
 
 Python is **interpreted**, not compiled to machine code, though it uses **compilation to bytecode** internally.
-
 
 #### References
 
@@ -187,4 +182,63 @@ gc.get_stats()        # view stats per generation
 6. P. Sommerlad, _Inside CPython Memory Management_, PyCon Talk (2022).
 7. Python Enhancement Proposal 445 — _Add memoryview.cast()_.
 
-### Concurrency
+### Global Interpreter Lock (GIL) and Concurrency
+
+The **GIL (Global Interpreter Lock)** is a mutual exclusion lock in **CPython**, ensuring that only **one thread executes Python bytecode at any given time**, even on multi-core systems.
+
+#### Purpose
+
+- Protects shared memory and reference counting in the CPython runtime.
+- Prevents race conditions in Python’s memory manager.
+- Simplifies extension module integration.
+
+#### Mechanism
+
+- Each OS thread running Python code must acquire the GIL before executing.
+- When a thread performs a **blocking I/O operation**, it releases the GIL temporarily.
+- The GIL is also periodically released after a fixed number of bytecode instructions (default ≈ every 5 ms) to allow thread switching.
+
+Result: **Only one thread can execute CPU-bound Python code at a time**.
+
+---
+
+#### Concurrency in Python
+
+Python supports multiple concurrency models. Their interaction with the GIL determines actual parallelism.
+
+##### a. Threading (`threading` module)
+
+- **Concurrency type:** Cooperative time-sharing between threads.
+
+- **GIL effect:** Only one thread runs Python code at a time, so **no CPU parallelism**.
+    
+- **Ideal for:** I/O-bound tasks (web requests, file I/O).
+    
+- **Reason:** GIL is released during I/O waits.
+    
+
+### b. Multiprocessing (`multiprocessing` module)
+
+- **Concurrency type:** True parallelism via multiple processes.
+    
+- **GIL effect:** None — each process has its own interpreter and GIL.
+    
+- **Ideal for:** CPU-bound tasks (data processing, ML inference).
+    
+- **Trade-off:** Higher memory and inter-process communication (IPC) overhead.
+    
+
+### c. AsyncIO (`asyncio` module)
+
+- **Concurrency type:** Single-threaded cooperative multitasking using an event loop.
+    
+- **GIL effect:** Minimal — tasks yield voluntarily (`await`), so the GIL rarely causes contention.
+    
+- **Ideal for:** High-volume I/O workloads (servers, APIs, network clients).
+    
+
+### d. `concurrent.futures`
+
+- **ThreadPoolExecutor:** A high-level wrapper around `threading` (subject to GIL).
+    
+- **ProcessPoolExecutor:** A high-level wrapper around `multiprocessing` (bypasses GIL).
