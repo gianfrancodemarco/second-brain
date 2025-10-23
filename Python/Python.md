@@ -220,7 +220,7 @@ Python supports multiple concurrency models. Their interaction with the GIL dete
 - **Ideal for:** CPU-bound tasks (data processing, ML inference).
 - **Trade-off:** Higher memory and inter-process communication (IPC) overhead.
 
-##### c. [[AsyncIO]] (`asyncio` module)
+##### c. [[asyncIO]] (`asyncio` module)
 
 - **Concurrency type:** Single-threaded cooperative multitasking using an event loop.
 - **GIL effect:** Minimal — tasks yield voluntarily (`await`), so the GIL rarely causes contention.

@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/AsyncIO.md",
+                "file": "Python/FastAPI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AsyncIO"
+              "title": "FastAPI"
+            }
+          },
+          {
+            "id": "9f52f69c8142df28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ASGI and WSGI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ASGI and WSGI"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -123,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/AsyncIO.md",
+                "file": "ASGI and WSGI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AsyncIO"
+              "title": "Backlinks for ASGI and WSGI"
             }
           },
           {
@@ -142,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/AsyncIO.md",
+                "file": "ASGI and WSGI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from AsyncIO"
+              "title": "Outgoing links from ASGI and WSGI"
             }
           },
           {
@@ -171,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/AsyncIO.md",
+                "file": "ASGI and WSGI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AsyncIO"
+              "title": "Outline of ASGI and WSGI"
             }
           },
           {
@@ -210,9 +224,12 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "f6fdd5a2f1c611ab",
+  "active": "9f52f69c8142df28",
   "lastOpenFiles": [
-    "Python/AsyncIO.md",
+    "Python/FastAPI.md",
+    "ASGI and WSGI.md",
+    "Python/Poetry.md",
+    "Python/asyncIO.md",
     "Python/Python.md",
     "Stack based and Heap Based allocations.md",
     "dynamically-typed language.md",
@@ -220,10 +237,8 @@
     "Python/Pydantic.md",
     "README.md",
     "Pasted image 20251022200153.png",
-    "Python/Poetry.md",
     "Python/Untitled.md",
     "Python/mypi.md",
-    "Python/FastAPI.md",
     "Python",
     "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.canvas",
     "fundamentals-of-data-engineering/1 - Foundation and Building Blocks/Data Engineering Lifecycle.png",
