@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASGI and WSGI.md",
+                "file": "Python/ASGI and WSGI.md",
                 "mode": "source",
                 "source": false
               },
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASGI and WSGI.md",
+                "file": "Python/ASGI and WSGI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASGI and WSGI.md",
+                "file": "Python/ASGI and WSGI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASGI and WSGI.md",
+                "file": "Python/ASGI and WSGI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -224,10 +224,10 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "9f52f69c8142df28",
+  "active": "f6fdd5a2f1c611ab",
   "lastOpenFiles": [
     "Python/FastAPI.md",
-    "ASGI and WSGI.md",
+    "Python/ASGI and WSGI.md",
     "Python/Poetry.md",
     "Python/asyncIO.md",
     "Python/Python.md",
