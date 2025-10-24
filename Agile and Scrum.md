@@ -27,15 +27,10 @@ While Scrum is the most structured Agile framework, others like **Kanban** or **
 ### **Agile — criticisms**
 
 - **Buzzword misuse:** Many organizations claim to be “Agile” while keeping traditional hierarchies and fixed plans. This leads to “fake Agile” or “Agile in name only.”
-    
 - **Lack of predictability:** Iterative delivery makes long-term planning and budgeting harder for management used to fixed timelines.
-    
 - **Continuous change fatigue:** Constant reprioritization can exhaust teams and destabilize scope.
-    
 - **Overemphasis on meetings and collaboration:** Some developers see “Agile culture” as valuing discussion over deep work.
-    
 - **Scalability issues:** Agile works best for small, cross-functional teams. Scaling it across large enterprises (e.g., with SAFe) adds bureaucracy that negates its simplicity.
-    
 
 ---
 
