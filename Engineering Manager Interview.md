@@ -6,5 +6,8 @@ Most of the times I've worked in Python, both in my professional career and univ
 For my 2 most recent roles I've worked as Data Engineer, even if actually my roles have been wider, since being the only member of the Data Teams at these companies, I've had the ownership of designing the data infrastructure, modeling the data, implementing the data solutions and pipelines and monitoring them.
 
 Q: Having worked as a data engineer, why are you applying back to Software Engineer positions
-A: So, following my interests and study in data and artificial intelligence, I've moved to more data centered engineering positions. Here I've built the data platform for both the companies and achieved my goals about that. However, being mostly the only one responsible for that, I've being covering the whole data flow, which not only involves designing processes, pipelines, ETL, but also visualization and reporting. These last two things have been a little bit of a burden and made me wish that i could work more on the more technical stuff.
-However,  
+A: Following my interest and studies in data and AI, I moved into more data-focused engineering roles, where I built end-to-end data platforms for my companies. As the sole member of these teams, I covered the full data flow, including designing pipelines, ETL, visualization, and reporting. While I enjoyed the technical challenges, the visualization and reporting aspects were less aligned with my core interests, and I realized I wanted to focus more on backend and system engineering.
+The skills I developed in data engineering—Python, pipelines, APIs, and architecture—are directly transferable to software engineering roles. I also understand that Nearform works with data-intensive applications, so this role offers a good balance between my interests in technical software development and my experience with data
+
+Q: Why you want to work at Nearform?
+A: Well first of all, for my understanding, Nearform is a place where you colsuntancy in a good way, which means that you do curated adn co
