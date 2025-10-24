@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "51173ae6633eba75",
+        "id": "9be58e40eec1d951",
         "type": "tabs",
         "children": [
           {
-            "id": "ef4047a6e95e4a3a",
+            "id": "aa200c21c85af8c9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,8 +178,9 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "f6fdd5a2f1c611ab",
+  "active": "aa200c21c85af8c9",
   "lastOpenFiles": [
+    "README.md",
     "Python/FastAPI.md",
     "Python/ASGI and WSGI.md",
     "Python/Poetry.md",
@@ -188,7 +190,6 @@
     "dynamically-typed language.md",
     "stack-based.md",
     "Python/Pydantic.md",
-    "README.md",
     "Pasted image 20251022200153.png",
     "Python/Untitled.md",
     "Python/mypi.md",
