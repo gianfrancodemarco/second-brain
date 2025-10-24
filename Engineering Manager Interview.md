@@ -14,4 +14,9 @@ A: I’m interested in Nearform because it combines consultancy with high-qualit
 
 **Q: Tell me about your experience with Python-based systems.**
 A: I've been using python since high-school for school and personal projects. Then in university it was my first language choice, both for bachelor's projects and definetly for master's where i've done a little bit of ML projects, computer vision projects and NLP projects.
-Professionally, I've been using python in my last 3 experiences, with 
+Professionally, I've been using python in my last 3 experiences, with different frameworks and settings.
+In my oldest one, I built extensions for CKAN, an open source data management system written in Python, with Flask and Jinja
+In my experience in hlpy, we had a microservice architecture, leveraging docker and kubernetes.
+Most of the systems leveraged starlette as asgi framework, pydantic, alembic for datbase versioning, sqlalchemy as orm.
+I also introduced Airflow for workflow management and i implemented a few pipelines using python.
+At my current role, i'
