@@ -5,4 +5,6 @@ Regarding my professional experience, I've started with full stack roles but soo
 Most of the times I've worked in Python, both in my professional career and university career, since I've been doing Machine Learning, computer vision and stuff like that.
 For my 2 most recent roles I've worked as Data Engineer, even if actually my roles have been wider, since being the only member of the Data Teams at these companies, I've had the ownership of designing the data infrastructure, modeling the data, implementing the data solutions and pipelines and monitoring them.
 
-Q: Having worked as a data engineer, why are you applying back to Sof
+Q: Having worked as a data engineer, why are you applying back to Software Engineer positions
+A: So, following my interests and study in data and artificial intelligence, I've moved to more data centered engineering positions. Here I've built the data platform for both the companies and achieved my goals about that. However, being mostly the only one responsible for that, I've being covering the whole data flow, which not only involves designing processes, pipelines, ETL, but also visualization and reporting. These last two things have been a little bit of a burden and made me wish that i could work more on the more technical stuff.
+However,  
