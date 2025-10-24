@@ -23,6 +23,80 @@ These ceremonies enforce **transparency** (everyone sees the work and progress),
 
 While Scrum is the most structured Agile framework, others like **Kanban** or **Extreme Programming (XP)** offer different degrees of flexibility. Kanban, for example, focuses on continuous flow rather than fixed sprints; XP adds engineering practices like test-driven development and pair programming.
 
+
+### **Agile — criticisms**
+
+- **Buzzword misuse:** Many organizations claim to be “Agile” while keeping traditional hierarchies and fixed plans. This leads to “fake Agile” or “Agile in name only.”
+    
+- **Lack of predictability:** Iterative delivery makes long-term planning and budgeting harder for management used to fixed timelines.
+    
+- **Continuous change fatigue:** Constant reprioritization can exhaust teams and destabilize scope.
+    
+- **Overemphasis on meetings and collaboration:** Some developers see “Agile culture” as valuing discussion over deep work.
+    
+- **Scalability issues:** Agile works best for small, cross-functional teams. Scaling it across large enterprises (e.g., with SAFe) adds bureaucracy that negates its simplicity.
+    
+
+---
+
+### **Scrum — criticisms**
+
+- **Rigid rituals:** The prescribed events and roles can feel mechanical or excessive if applied dogmatically.
+- **Dependency on skilled roles:** A weak Product Owner or Scrum Master can cause failure.
+- **Velocity obsession:** Teams often get measured by sprint velocity instead of actual value delivered, leading to gaming metrics.
+- **Limited flexibility mid-sprint:** Once a sprint starts, the backlog is frozen. In volatile environments, that can slow adaptation.
+- **Team maturity assumption:** Scrum assumes self-organizing, motivated teams. Many organizations lack that culture, so Scrum becomes micromanagement in disguise.
+
+---
+
+### **Kanban**
+
+Origin: Toyota Production System → applied to software by David J. Anderson.  
+Core idea: visualize workflow, limit work in progress (WIP), and improve flow.
+
+**Strengths**
+
+- Simple to start with existing processes.
+- Continuous delivery instead of sprint cycles.
+- Strong focus on throughput, bottleneck detection, and flow efficiency.
+- Suits operational and maintenance work where priorities shift often.
+
+**Criticisms**
+
+- Less guidance on roles, ceremonies, and planning.
+- Without discipline, boards become cluttered and WIP limits ignored.
+- Stakeholders may miss the sense of timeboxing and deadlines.
+- Harder to measure progress in traditional project terms.
+
+---
+
+### **Extreme Programming (XP)**
+
+Origin: Kent Beck, late 1990s. Focuses on engineering excellence inside Agile teams.
+
+**Key practices**
+
+- Test-Driven Development (TDD)
+- Pair programming
+- Continuous integration
+- Refactoring
+- Small releases
+- Collective code ownership
+
+**Strengths**
+
+- Improves code quality and maintainability.
+- Reduces defects early.
+- Encourages continuous learning and feedback.
+
+**Criticisms**
+
+- Demanding discipline. Teams often drop hard practices like TDD or pair programming first.
+- Perceived as costly: pair programming and constant testing reduce short-term output.
+- Cultural mismatch: requires high trust and collaboration, rare in traditional organizations.
+- Harder to justify to non-technical managers focused on immediate velocity.
+
+
 In summary:
 
 - **Agile** is the philosophy of iterative, customer-focused adaptability.
