@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "40c980c1292871ba",
+        "id": "edcd48d33f8c806b",
         "type": "tabs",
         "children": [
           {
-            "id": "38b3500f5e29ff77",
+            "id": "4fd1c2256bab17e1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -178,7 +178,7 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "38b3500f5e29ff77",
+  "active": "4fd1c2256bab17e1",
   "lastOpenFiles": [
     "Engineering Manager Interview.md",
     "Agile and Scrum.md",
