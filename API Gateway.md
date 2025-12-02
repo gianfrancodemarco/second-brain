@@ -26,7 +26,7 @@ API gateways throttle and manage traffic through various mechanisms designed to 
 - **Circuit breaking policies** monitor the health and responsiveness of backend servers and temporarily block or redirect traffic away from failing or slow services to prevent cascading failures and maintain overall system stability.
 - **Dynamic load balancing** from API gateways continuously monitors server health and adjusts traffic routing in real-time to handle spikes in demand, minimize response times, and maximize throughput.
 
-## Authentication && Authorization with API gateways 
+## Authentication && Authorization with API gateways
 
 ## References
 
