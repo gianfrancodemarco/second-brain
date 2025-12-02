@@ -33,4 +33,4 @@ A **reverse proxy** sits **in front of one or more servers** and receives reques
 Client → Reverse Proxy → Backend Server(s) → Reverse Proxy → Client
 
 **Example use case**  
-A large website uses Nginx as a reverse proxy to balance requests across multiple application servers.
+A large website uses [[Nginx]] as a reverse proxy to balance requests across multiple application servers.
