@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTTP, HTTP2, WebSockets.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP, HTTP2, WebSockets"
+              "title": "Untitled"
             }
           }
         ]
@@ -184,6 +184,10 @@
   },
   "active": "4fd1c2256bab17e1",
   "lastOpenFiles": [
+    "CDN.md",
+    "Untitled.md",
+    "dynamically-typed language.md",
+    "Streaming Protocols.md",
     "HTTP, HTTP2, WebSockets.md",
     "Python/Design Patterns",
     "API Gateway.md",
@@ -193,7 +197,6 @@
     "Rate Limiting.md",
     "Engineering Manager Interview.md",
     "Pasted image 20251022200153.png",
-    "dynamically-typed language.md",
     "Agile and Scrum.md",
     "README.md",
     "Python/FastAPI.md",
