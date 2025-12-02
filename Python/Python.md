@@ -226,7 +226,7 @@ Python supports multiple concurrency models. Their interaction with the GIL dete
 - **GIL effect:** Minimal — tasks yield voluntarily (`await`), so the GIL rarely causes contention.
 - **Ideal for:** High-volume I/O workloads (servers, APIs, network clients).
 
-### d. `concurrent.futures`
+#####  d. `concurrent.futures`
 
 - **ThreadPoolExecutor:** A high-level wrapper around `threading` (subject to GIL).
 - **ProcessPoolExecutor:** A high-level wrapper around `multiprocessing` (bypasses GIL).
