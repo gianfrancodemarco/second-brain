@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engineering Manager Interview.md",
+                "file": "Agile and Scrum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Engineering Manager Interview"
+              "title": "Agile and Scrum"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering Manager Interview.md",
+                "file": "Agile and Scrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Engineering Manager Interview"
+              "title": "Backlinks for Agile and Scrum"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engineering Manager Interview.md",
+                "file": "Agile and Scrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Engineering Manager Interview"
+              "title": "Outgoing links from Agile and Scrum"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engineering Manager Interview.md",
+                "file": "Agile and Scrum.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Engineering Manager Interview"
+              "title": "Outline of Agile and Scrum"
             }
           },
           {
@@ -198,26 +198,26 @@
   },
   "active": "d74ff3c4fe89dc11",
   "lastOpenFiles": [
-    "Streaming Protocols.md",
-    "Media Formats and Codecs.md",
+    "API Gateway.md",
+    "Bloom Filter.md",
+    "CDN.md",
     "dynamically-typed language.md",
     "Engineering Manager Interview.md",
+    "HTTP, HTTP2, WebSockets.md",
+    "Media Formats and Codecs.md",
+    "Nginx.md",
+    "Proxy and Reverse proxy.md",
+    "Streaming Protocols.md",
+    "Rate Limiting.md",
+    "SSL termination.md",
     "Python/Python.md",
     "Python/Pydantic.md",
-    "Proxy and Reverse proxy.md",
     "Python/Poetry.md",
     "Python/Stack based and Heap Based allocations.md",
     "Python/variable_types.png",
-    "HTTP, HTTP2, WebSockets.md",
-    "Bloom Filter.md",
-    "API Gateway.md",
-    "Nginx.md",
-    "SSL termination.md",
-    "CDN.md",
     "Python/Design Patterns",
     "Untitled.base",
     "Untitled.canvas",
-    "Rate Limiting.md",
     "Agile and Scrum.md",
     "README.md",
     "Python/FastAPI.md",
