@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "edcd48d33f8c806b",
+        "id": "05b0d95149369d82",
         "type": "tabs",
         "children": [
           {
-            "id": "4fd1c2256bab17e1",
+            "id": "cdcab9e6591afaa1",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -174,7 +174,7 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "f6fdd5a2f1c611ab",
+  "active": "cdcab9e6591afaa1",
   "lastOpenFiles": [
     "Fundamentals of Data Engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.canvas",
     "[Governance.md",
