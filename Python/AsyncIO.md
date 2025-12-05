@@ -1,4 +1,4 @@
-`asyncio` is Python’s framework for **asynchronous I/O**, built on an **event loop** that schedules and runs **coroutines** concurrently in a single thread. It provides **concurrency without parallelism**.
+`asyncio` is [[Python]]’s framework for **asynchronous I/O**, built on an **event loop** that schedules and runs **coroutines** concurrently in a single thread. It provides **concurrency without parallelism**.
 
 `asyncio` replaces traditional blocking I/O with **non-blocking**, cooperative multitasking.  
 Each coroutine voluntarily **yields control** with `await`, allowing other tasks to run while waiting (e.g., for network responses or file reads).
@@ -22,13 +22,13 @@ Each coroutine voluntarily **yields control** with `await`, allowing other tasks
 | Scenario                            | Use `asyncio`?           |
 | ----------------------------------- | ------------------------ |
 | Many network requests               | ✅                        |
-| Web servers (e.g. FastAPI, aiohttp) | ✅                        |
+| Web servers (e.g. [[FastAPI]], aiohttp) | ✅                        |
 | File I/O                            | ✅ (with async libraries) |
 | CPU-bound computation               | ❌ (use multiprocessing)  |
 
 ## References
 
-- Python asyncio documentation
-- Real Python: Async IO in Python
+- [[Python]] asyncio documentation
+- Real [[Python]]: Async IO in [[Python]]
 - PEP 3156 – Asynchronous I/O Support
 - aiohttp – Async HTTP Client/Server

@@ -24,7 +24,7 @@
 		{"id":"e116a414edeb65e4","type":"text","text":"#  <center> Data Engineering </center>","x":-482,"y":-340,"width":480,"height":60},
 		{"id":"cc7a9b40562ee5e1","type":"text","text":"#### development, implementation, and maintenance of systems and processes that take in raw data and produce high-quality, consistent information that supports downstream use cases, such as analysis and machine learning","x":-914,"y":-36,"width":594,"height":196},
 		{"id":"cf27aa7fbabc6f93","type":"text","text":"## Stages","x":-1045,"y":880,"width":150,"height":50},
-		{"id":"3f7561c59b2f74ad","type":"file","file":"fundamentals-of-data-engineering/1 - Foundation and Building Blocks/Data Engineering Lifecycle.png","x":-600,"y":380,"width":716,"height":360},
+		{"id":"3f7561c59b2f74ad","type":"file","file":"Fundamentals of Data Engineering/1 - Foundation and Building Blocks/Data Engineering Lifecycle.png","x":-600,"y":380,"width":716,"height":360},
 		{"id":"ebdd30bc2fbaa9d3","type":"text","text":"#### Stage 1: Starting with data","x":1920,"y":-200,"width":360,"height":57},
 		{"id":"ef994d1221f89095","type":"text","text":"#### Stage 2: Scaling with data","x":1920,"y":138,"width":360,"height":57},
 		{"id":"6ffd7be733636163","type":"text","text":"#### dedicated specialists—**data engineers**— to maintain data so that it remains available and usable by others","x":-120,"y":-36,"width":380,"height":156},
@@ -37,7 +37,7 @@
 		{"id":"af0c85c0960c4f12","type":"text","text":"- Create automation for the seamless introduction and usage of new data \n- Focus on building custom tools and systems\n- Focus on the “enterprisey” aspects of data, such as data management and DataOps","x":3360,"y":940,"width":793,"height":96},
 		{"id":"b1e6858dce734c25","type":"text","text":"#### Stage 3: Leading with data","x":1911,"y":555,"width":369,"height":50},
 		{"id":"8358a25ad8cbbd4a","type":"text","text":"### Data Maturity and Data Engineer\nthe progression toward higher data utilization, capabilities, and integration across the organization","x":1140,"y":12,"width":660,"height":308},
-		{"id":"5b4f734648df0196","type":"file","file":"fundamentals-of-data-engineering/1 - Foundation and Building Blocks/Pasted image 20240512174058.png","x":1161,"y":161,"width":619,"height":145}
+		{"id":"5b4f734648df0196","type":"file","file":"Fundamentals of Data Engineering/1 - Foundation and Building Blocks/Pasted image 20240512174058.png","x":1161,"y":161,"width":619,"height":145}
 	],
 	"edges":[
 		{"id":"c9e441db3f48199e","fromNode":"e116a414edeb65e4","fromSide":"bottom","toNode":"cc7a9b40562ee5e1","toSide":"top","label":"is the"},

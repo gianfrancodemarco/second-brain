@@ -53,9 +53,9 @@ By contrast, **heap allocation**:
 Hence, [[Python]]—where all objects live on the heap—pays this overhead for flexibility.
 
 
-| Feature                           | **C**                                                | **Python (CPython)**                                   | **Java (JVM)**                                             |
+| Feature                           | **C**                                                | **[[Python]] (CPython)**                                   | **Java (JVM)**                                             |
 | --------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- |
-| **Primary Allocation Model**      | Stack for locals, heap for dynamic data              | All objects on heap (managed by Python memory manager) | Stack for primitives/references, heap for objects          |
+| **Primary Allocation Model**      | Stack for locals, heap for dynamic data              | All objects on heap (managed by [[Python]] memory manager) | Stack for primitives/references, heap for objects          |
 | **Stack Allocation**              | Manual, automatic per function call                  | Used only for interpreter call frames (not user data)  | Automatic per thread, holds local variables and references |
 | **Heap Allocation**               | Manual via `malloc/free` or `new/delete`             | Automatic via `pymalloc` + reference counting + GC     | Automatic via generational GC                              |
 | **Memory Management**             | Manual                                               | Automatic (refcount + cyclic GC)                       | Automatic (tracing GC)                                     |
@@ -65,7 +65,7 @@ Hence, [[Python]]—where all objects live on the heap—pays this overhead for 
 | **Stack Size**                    | Fixed or configurable per thread                     | Fixed by C runtime (used indirectly)                   | Fixed or configurable per thread                           |
 | **Garbage Collection**            | None                                                 | Yes (cyclic)                                           | Yes (generational tracing)                                 |
 | **Memory Fragmentation Handling** | Programmer responsibility                            | Managed internally (arenas, pools)                     | Automatic via compaction                                   |
-| **References**                    | Raw pointers                                         | Python object references                               | Object handles (references)                                |
+| **References**                    | Raw pointers                                         | [[Python]] object references                               | Object handles (references)                                |
 | **Example Lifetime Control**      | `malloc` / `free`                                    | Implicit (refcount decrement)                          | Implicit (GC pass)                                         |
 
 ### Key Takeaways
@@ -73,7 +73,7 @@ Hence, [[Python]]—where all objects live on the heap—pays this overhead for 
 - **Stack** = speed, locality, limited lifetime.
 - **Heap** = flexibility, indirection, overhead.
 - **Modern languages** often mix both: stack for primitives, heap for complex or shared data.
-- **Python’s choice** to allocate everything on the heap simplifies semantics but sacrifices raw speed.
+- **[[Python]]’s choice** to allocate everything on the heap simplifies semantics but sacrifices raw speed.
 - **Low-level control (C, Rust)** trades safety for performance.
 - **Managed runtimes (Java, Go, C#)** optimize heap management to bridge that gap.
 

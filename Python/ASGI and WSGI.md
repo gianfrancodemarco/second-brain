@@ -1,4 +1,4 @@
-ASGI and WSGI are **Python web application interfaces** defining how servers communicate with frameworks.
+ASGI and WSGI are **[[Python]] web application interfaces** defining how servers communicate with frameworks.
 
 - **WSGI (Web Server Gateway Interface):** Standard for **synchronous** apps.
 - **ASGI (Asynchronous Server Gateway Interface):** Standard for **asynchronous** and **synchronous** apps.
@@ -15,7 +15,7 @@ ASGI and WSGI are **Python web application interfaces** defining how servers com
 
 |Category|WSGI|ASGI|
 |---|---|---|
-|**Frameworks**|Flask, Django (classic)|FastAPI, Starlette, Django Channels|
+|**Frameworks**|Flask, Django (classic)|[[FastAPI]], Starlette, Django Channels|
 |**Use case**|Simple web pages, blocking I/O|APIs, WebSockets, async I/O|
 |**Performance**|Limited by threads|Scales efficiently with async I/O|
 |**Scalability**|Heavy under high concurrency|Lightweight and scalable|

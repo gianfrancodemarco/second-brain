@@ -1,5 +1,5 @@
 
-Python is a high-level, [[dynamically-typed language]] where code blocks are defined by indentation rather than braces. It emphasizes readability (see PEP 8).
+Python is a high-level, [[Dynamically Typed Language]] where code blocks are defined by indentation rather than braces. It emphasizes readability (see PEP 8).
 Assignment is by reference (names bind to objects), and mutable vs immutable types behave differently under aliasing (e.g. two names can refer to the same list).
 
 ![[variable_types.png]]
@@ -236,7 +236,7 @@ Python supports multiple concurrency models. Their interaction with the GIL dete
 |---|---|---|---|---|
 |Threading|One process|No|Yes|I/O concurrency|
 |Multiprocessing|Multiple processes|Yes|No|CPU parallelism|
-|AsyncIO|One process/thread|No (cooperative)|No practical effect|Async I/O concurrency|
+|[[asyncIO]]|One process/thread|No (cooperative)|No practical effect|Async I/O concurrency|
 |C Extensions (NumPy, etc.)|One process|Yes (via native code)|Can release GIL|Compute acceleration|
 
 ## References
@@ -245,4 +245,4 @@ Python supports multiple concurrency models. Their interaction with the GIL dete
 - PEP 703 – No-GIL Proposal
 - Real Python – Concurrency and Parallelism
 - [David Beazley – Understanding the GIL (PyCon Talk)](https://www.youtube.com/watch?v=ph374fJqFPE)
-- AsyncIO Documentation
+- [[asyncIO]] Documentation
