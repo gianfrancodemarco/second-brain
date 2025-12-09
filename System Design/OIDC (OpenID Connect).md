@@ -23,9 +23,26 @@ The authentication flow typically follows these steps:
 2. **Authorization request.** The app redirects the user to the authorization server of the chosen provider, which manages the authentication process.
 3. **User authentication.** The provider verifies the user’s identity by checking their credentials.
 4. **Scopes and consent.** The app requests certain scopes (such as email address or profile information), and the user may be asked to approve sharing that data.
-5. 5*Token exchange.** Once approved, the provider issues an ID token (used to identify the user) and sometimes an access token (used to access resources). This step is known as [token-based authentication](https://nordvpn.com/blog/token-based-authentication/).
-6. 6.**Application access.** The app receives the tokens, validates them, and grants the user access without needing a separate account or password.
+5. **Token exchange.** Once approved, the provider issues an ID token (used to identify the user) and sometimes an access token (used to access resources). This step is known as [token-based authentication](https://nordvpn.com/blog/token-based-authentication/).
+6. **Application access.** The app receives the tokens, validates them, and grants the user access without needing a separate account or password.
 
 This flow makes user authentication more secure and flexible, while also significantly reducing the number of passwords users need to manage.
-### References
+
+### What are the main components of OIDC?
+
+The OpenID Connect protocol involves three main components that work together to complete the authentication process:
+
+- End user — the person who wants to log in to an application.
+- OpenID provider — the trusted service, like Google or Microsoft, that verifies the user’s identity through its authorization server.
+- Relying party — the application or website that relies on the provider to authenticate users and grant access.
+
+These three parts communicate through ID tokens and sometimes access tokens, making it possible for users to sign in securely with the same identity across different platforms.
+
+## OIDC Flows
+
+OIDC offers different “flows,” or login patterns, that describe how tokens are exchanged between the app or website, the OpenID provider, and the user. Each flow defines the steps an application takes to authenticate users and request the right type of token, such as an ID token for identity or an access token for protected resources. The most common option is the authorization code flow, but other flows exist to suit different devices, apps, and security needs.
+
+### #### OIDC authorization code flow
+
+## References
 https://nordvpn.com/it/blog/what-is-oidc/
