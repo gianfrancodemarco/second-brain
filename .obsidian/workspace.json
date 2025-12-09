@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "05b0d95149369d82",
+        "id": "a1aef1eed088ade7",
         "type": "tabs",
         "children": [
           {
-            "id": "cdcab9e6591afaa1",
+            "id": "92bf16787cc17389",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -181,18 +181,21 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "cdcab9e6591afaa1",
+  "active": "92bf16787cc17389",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "System Design/OIDC (OpenID Connect).md",
+    "System Design/Identity and Access Management System Design.md",
+    "Untitled 1.base",
+    "Untitled 3.base",
+    "Untitled 2.base",
     "Untitled.base",
+    "System Design/OIDC (OpenID Connect).md",
+    "Untitled.canvas",
     "System Design/Authentication vs Authorization.md",
     "System Design/Role-based access control.md",
     "System Design/Untitled",
     "System Design/API Gateway.md",
     "Agile and Scrum.md",
     "Engineering Manager Interview.md",
-    "Untitled 1.base",
     "2025-12-09.md",
     "Fundamentals of Data Engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.canvas",
     "[Governance.md",
@@ -203,7 +206,6 @@
     "Python/variable_types.png",
     "System Design/Dynamically Typed Language.md",
     "System Design",
-    "System Design/Identity and Access Management System Design.md",
     "System Design/HTTP, HTTP2, WebSockets.md",
     "System Design/Bloom Filter.md",
     "System Design/CDN.md",
@@ -220,8 +222,6 @@
     "Fundamentals of Data Engineering/1 - Foundation and Building Blocks/Data Engineering Lifecycle.png",
     "Fundamentals of Data Engineering/1 - Foundation and Building Blocks/Pasted image 20240512174058.png",
     "Excalidraw",
-    "fundamentals-of-data-engineering/I - Foundation and Building Blocks/i - Data Engineering Described",
-    "Fundamentals of Data Engineering/1 - Foundation and Building Blocks",
-    "Fundamentals of Data Engineering"
+    "fundamentals-of-data-engineering/I - Foundation and Building Blocks/i - Data Engineering Described"
   ]
 }

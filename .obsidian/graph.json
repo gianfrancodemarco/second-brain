@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:Python  ",
+  "search": "path:\"System Design\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.086916497473621,
-  "close": true
+  "scale": 1.8005122679872783,
+  "close": false
 }
