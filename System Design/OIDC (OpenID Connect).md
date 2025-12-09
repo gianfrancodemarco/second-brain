@@ -61,3 +61,4 @@ Client credentials flow is used when an application needs to authenticate itself
 
 ## References
 https://nordvpn.com/it/blog/what-is-oidc/
+https://darutk.medium.com/diagrams-of-all-the-openid-connect-flows-6968e3990660
