@@ -46,9 +46,13 @@ OIDC offers different “flows,” or login patterns, that describe how tokens a
 
 The authorization code flow is the most common and secure way to use OIDC. The application receives an authorization code from the authorization server, then exchanges it for an ID token and an access token to authenticate the user. This method is widely recommended for web and mobile apps that need strong protection.
 
+![](https://miro.medium.com/v2/resize:fit:1400/1*Pxdsn71Qm1liZu6glfvjag.png)
+
 ### Implicit Flow
 
 The implicit flow was designed for browser-based apps that cannot safely store a client secret. Tokens are returned directly to the application without an extra exchange, which makes it faster but less secure. Because of these security risks, implicit flow is less common today and often replaced by other flows.
+
+![](https://miro.medium.com/v2/resize:fit:1400/1*kNt-5dQ5GjNPNgl98QmVkg.png)
 
 ### Hybrid Flow
 
