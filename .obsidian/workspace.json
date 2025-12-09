@@ -136,12 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Untitled 1.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Untitled 1"
             }
           },
           {
@@ -174,8 +175,12 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "cdcab9e6591afaa1",
+  "active": "f6fdd5a2f1c611ab",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Untitled 1.base",
+    "2025-12-09.md",
+    "System Design/API Gateway.md",
     "Fundamentals of Data Engineering/1 - Foundation and Building Blocks/1.1 - Data Engineering Described.canvas",
     "[Governance.md",
     "Python/FastAPI.md",
@@ -185,13 +190,10 @@
     "Agile and Scrum.md",
     "Python/variable_types.png",
     "System Design/Dynamically Typed Language.md",
-    "Untitled.base",
     "System Design",
-    "Untitled 1.base",
     "System Design/Identity and Access Management System Design.md",
     "System Design/HTTP, HTTP2, WebSockets.md",
     "Untitled.canvas",
-    "System Design/API Gateway.md",
     "System Design/Bloom Filter.md",
     "System Design/CDN.md",
     "System Design/Engineering Manager Interview.md",
@@ -207,7 +209,6 @@
     "Design Patterns",
     "README.md",
     "stack-based.md",
-    "Python/Untitled.md",
     "Python",
     "Fundamentals of Data Engineering/1 - Foundation and Building Blocks/Data Engineering Lifecycle.png",
     "Fundamentals of Data Engineering/1 - Foundation and Building Blocks/Pasted image 20240512174058.png",
