@@ -42,7 +42,22 @@ These three parts communicate through ID tokens and sometimes access tokens, mak
 
 OIDC offers different “flows,” or login patterns, that describe how tokens are exchanged between the app or website, the OpenID provider, and the user. Each flow defines the steps an application takes to authenticate users and request the right type of token, such as an ID token for identity or an access token for protected resources. The most common option is the authorization code flow, but other flows exist to suit different devices, apps, and security needs.
 
-### #### OIDC authorization code flow
+### OIDC authorization code flow
+
+The authorization code flow is the most common and secure way to use OIDC. The application receives an authorization code from the authorization server, then exchanges it for an ID token and an access token to authenticate the user. This method is widely recommended for web and mobile apps that need strong protection.
+
+### Implicit Flow
+
+The implicit flow was designed for browser-based apps that cannot safely store a client secret. Tokens are returned directly to the application without an extra exchange, which makes it faster but less secure. Because of these security risks, implicit flow is less common today and often replaced by other flows.
+
+### Hybrid Flow
+
+The hybrid flow combines elements of both the authorization code and implicit flows. It lets the application receive some tokens right away while still using a code exchange for added security. This exact balance makes it useful for apps that need both speed and reliability.
+
+### Client Credentials Flow
+
+Client credentials flow is used when an application needs to authenticate itself rather than a user. In this case, the app communicates with the OpenID provider to get an access token, which it uses to connect securely to protected resources. Client credentials flow is commonly used for server-to-server communication.
+
 
 ## References
 https://nordvpn.com/it/blog/what-is-oidc/
