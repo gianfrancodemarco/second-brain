@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Test-driven",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -208,7 +209,7 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "f6fdd5a2f1c611ab",
+  "active": "ba6e8212507a783b",
   "lastOpenFiles": [
     "DevOps Engineering/Pasted image 20251210170616.png",
     "DevOps Engineering/Continuous Integration (CI).md",
