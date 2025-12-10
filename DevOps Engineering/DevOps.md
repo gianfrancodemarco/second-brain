@@ -2,6 +2,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 > Under a DevOps model, development and operations teams are no longer “siloed.” Sometimes, these two teams are **merged into a single team** where the **engineers work across the entire application lifecycle**, from development and test to deployment to operations, and develop a range of skills not limited to a single function.
 
+The hallmarks of DevOps are [[Continuous Integration (CI)]] and [continuous delivery](https://www.ibm.com/think/topics/continuous-delivery) (CI/CD), which support smaller, faster software updates. With CI/CD, small chunks of new code are merged into the code base at frequent intervals, and then automatically integrated, tested and prepared for deployment to the production environment.
 ### Benefits of DevOps
 #### Speed
 #### Rapid Delivery
