@@ -1,26 +1,28 @@
-## 1. DevOps Overview
+DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
 
-- Definition and purpose
-- Problems DevOps solves
-- DevOps vs traditional IT operations
-- DevOps lifecycle stages
+> Under a DevOps model, development and operations teams are no longer “siloed.” Sometimes, these two teams are **merged into a single team** where the **engineers work across the entire application lifecycle**, from development and test to deployment to operations, and develop a range of skills not limited to a single function.
+
+### Benefits of DevOps
+#### Speed
+#### Rapid Delivery
+#### Reliability
+### Scale
+### Improved Collaboration
+### Security
+
+### References
+https://aws.amazon.com/devops/what-is-devops/
 
 ---
 
 ## 2. Core DevOps Principles
 
 - Automation
-    
 - Continuous feedback
-    
 - Shared ownership
-    
 - Reliability and resilience
-    
 - Infrastructure as code
-    
 - Security by design (DevSecOps)
-    
 
 ---
 
