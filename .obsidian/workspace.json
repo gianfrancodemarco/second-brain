@@ -11,10 +11,14 @@
             "id": "ad919402c089a2dd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevOps Engineering/DevOps.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DevOps"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DevOps Engineering/DevOps.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of DevOps"
             }
           },
           {
@@ -176,6 +181,8 @@
   },
   "active": "ad919402c089a2dd",
   "lastOpenFiles": [
+    "DevOps Engineering/DevOps.md",
+    "DevOps Engineering",
     "System Design/OAuth 2.0.md",
     "System Design/OIDC (OpenID Connect).md",
     "System Design/Identity and Access Management System Design.md",
@@ -210,12 +217,10 @@
     "System Design/SSL termination.md",
     "Python/Python.md",
     "Python/Pydantic.md",
-    "Python/Poetry.md",
     "Design Patterns",
     "Python",
     "Fundamentals of Data Engineering/1 - Foundation and Building Blocks/Data Engineering Lifecycle.png",
     "Fundamentals of Data Engineering/1 - Foundation and Building Blocks/Pasted image 20240512174058.png",
-    "Excalidraw",
-    "fundamentals-of-data-engineering/I - Foundation and Building Blocks/i - Data Engineering Described"
+    "Excalidraw"
   ]
 }
