@@ -29,30 +29,20 @@ https://aws.amazon.com/devops/what-is-devops/
 ## 3. Source Control & Collaboration
 
 - Git fundamentals
-    
 - Branching strategies
-    
 - Pull requests and code reviews
-    
 - Monorepo vs multirepo
-    
 - Trunk-based development
-    
 
 ---
 
-## 4. Continuous Integration (CI)
+## 4. [[Continuous Integration (CI)]]
 
 - Build automation
-    
 - Dependency management
-    
 - Automated testing
-    
 - Static code analysis
-    
 - CI pipeline design
-    
 
 ---
 
