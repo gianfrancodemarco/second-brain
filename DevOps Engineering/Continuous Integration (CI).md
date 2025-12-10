@@ -9,6 +9,10 @@ Different pieces of code didn’t always work well together, and developers inte
 
 Furthermore, software testing was infrequent. Teams typically implemented large batch updates all at once, which allowed bugs to slip through the cracks and accumulate in the code base. As a result, development teams encountered more challenging troubleshooting tasks, higher failure rates and slower code releases; businesses lost revenue to process inefficiencies; and users saw more software errors and glitches.
 
-### References
+## Key CI components and processes
+
+### Central source code repositories
+
+## References
 https://en.wikipedia.org/wiki/Continuous_integration
 https://www.ibm.com/think/topics/continuous-integration

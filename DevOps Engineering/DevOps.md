@@ -62,7 +62,7 @@ Many organizations deploy first to a subset of end users to ensure that the appl
 
 In this stage, DevOps teams check that new features are running smoothly and are available to users with no interruptions in service. They use automated observability and management tools to continuously monitor and optimize operations to make sure that network, storage, platform, compute and [security postures](https://www.ibm.com/think/topics/security-posture) are all working properly.
 
-### Monitor
+### 8. Monitor
 
 In this stage, teams collect and analyze feedback from users and lessons from previous workflows to help improve processes and products going forward. This continuous monitoring of features, functions, performance and business value informs the planning for the next release of new features and enhancements.
 
