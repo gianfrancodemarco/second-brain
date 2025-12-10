@@ -1,3 +1,4 @@
-
+**Continuous integration** (**CI**) is the practice of integrating [source code](https://en.wikipedia.org/wiki/Source_code "Source code") changes frequently and ensuring that the integrated codebase is in a workable state. Typically, developers [merge](https://en.wikipedia.org/wiki/Merge_\(version_control\) "Merge (version control)") changes to an [integration branch](https://en.wikipedia.org/wiki/Branching_\(revision_control\) "Branching (revision control)"), and an automated system [builds](https://en.wikipedia.org/wiki/Software_build "Software build") and [tests](https://en.wikipedia.org/wiki/Software_testing "Software testing") the [software system](https://en.wikipedia.org/wiki/Software_system "Software system").
+Often, the automated process runs on each [commit](https://en.wikipedia.org/wiki/Commit_\(version_control\) "Commit (version control)") or runs on a schedule such as once a day.
 ### References
 https://en.wikipedia.org/wiki/Continuous_integration
