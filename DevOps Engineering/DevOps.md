@@ -2,17 +2,26 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 > Under a DevOps model, development and operations teams are no longer “siloed.” Sometimes, these two teams are **merged into a single team** where the **engineers work across the entire application lifecycle**, from development and test to deployment to operations, and develop a range of skills not limited to a single function.
 
-The hallmarks of DevOps are [[Continuous Integration (CI)]] and [continuous delivery](https://www.ibm.com/think/topics/continuous-delivery) (CI/CD), which support smaller, faster software updates. With CI/CD, small chunks of new code are merged into the code base at frequent intervals, and then automatically integrated, tested and prepared for deployment to the production environment.
-### Benefits of DevOps
-#### Speed
-#### Rapid Delivery
-#### Reliability
-### Scale
-### Improved Collaboration
-### Security
+The hallmarks of DevOps are [[Continuous Integration (CI)]] and [[Continuous Delivery]] (CI/CD), which support smaller, faster software updates. With CI/CD, small chunks of new code are merged into the code base at frequent intervals, and then automatically integrated, tested and prepared for deployment to the production environment.
+
+DevOps is an evolution of the [agile software development](https://www.ibm.com/think/topics/agile-vs-waterfall) methodology, which emerged as an alternative to the waterfall methodology. In the waterfall approach, software development teams spent months developing large bodies of code, which then underwent months of testing before release. In contrast, agile development takes an iterative approach to the software delivery lifecycle.  
+  
+DevOps adds new processes and tools to the agile methodology, notably the [automation](https://www.ibm.com/think/topics/automation) of much of the CI/CD pipeline.
+
+
+## The DevOps lifecycle
+
+The DevOps lifecycle is designed to optimize the rapid delivery of high-quality software. It includes a series of iterative, automated workflows that run within a larger automated and iterative development lifecycle.
+
+![[Pasted image 20251210170616.png]]
+
+## 1. Plann
+
+
 
 ### References
 https://aws.amazon.com/devops/what-is-devops/
+https://www.ibm.com/think/topics/devops
 
 ---
 
