@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b969c59642894f76",
+        "id": "d7ae07d2a0fc4667",
         "type": "tabs",
         "children": [
           {
-            "id": "3d6af5f6f0dadfc8",
+            "id": "3d990504343c45d8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -177,7 +177,7 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "3d6af5f6f0dadfc8",
+  "active": "3d990504343c45d8",
   "lastOpenFiles": [
     "DevOps Engineering/DevOps.md",
     "DevOps Engineering/Continuous Integration (CI).md",
